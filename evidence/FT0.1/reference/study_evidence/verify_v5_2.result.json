@@ -1,0 +1,12 @@
+{
+  "script": "verify_v5_2",
+  "exit_code": 0,
+  "seconds": 110.234,
+  "pass_lines": 34,
+  "fail_lines": [],
+  "tail": [
+    "PASS  spectrum.cognitive_style_has_no_emission_signature",
+    "================================================================",
+    "all passed"
+  ]
+}

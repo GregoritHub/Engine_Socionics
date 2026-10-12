@@ -1,0 +1,52 @@
+MODEL G CLOSURE AND REUSE STUDY
+Research on 12 October 2026 UTC, corresponding to the user's 11 October evening authorization.
+
+This is a research package. It does not modify Socionics_Engine, promote a firing policy, or close any theory-register item.
+
+SOURCE IDENTITIES
+Historical archive: HolonicLivingEngine5_2_1_canon.zip
+SHA-256: a488add7ec9a696390b65095b6ba4727ebd10703c989c913082d39b5987ebe82
+Recovered from /HLE/ and compared byte-for-byte with /Shell Study/.
+Library identities: libfile_390ccbffadbc8191bb7990e75592ddcf and libfile_f617331cefe08191abfc95c26b366d56.
+The extracted historical package is kernel/clean. Its eleven pyref files match manifests/kernel_sha256.json. The whole 188-file package was frozen before tests. Seal checks establish consistency with the included manifest, not external attestation of the archive's authorship.
+
+Current engine: GregoritHub/Socionics_Engine
+Commit: fdede6f16721f06422d0798a79d84170969b83f8
+No tracked source changed during this study. Current_Engine_Source.json records relevant file hashes.
+The 16 user-supplied Individuation Program DOCX files and extracted text are under sources/programs. Program_Targets.json records the 128 selected channel target rows. Reading them is not fresh verification of their historical claims.
+
+RUNNING
+Use a fresh extraction of this package so previously saved evidence is preserved.
+Historical probes use Python standard library only. Source DOCX extraction uses python-docx; it need not be repeated because source text and expected targets are included.
+The probes expect the exact current-engine checkout as a sibling directory named Socionics_Engine. They import only its structural modules in probe_controls.py. Do not substitute a different current checkout without recording that fact.
+
+From this study directory:
+    python run_original_suites.py
+    PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 python probe_historical.py
+    PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 python probe_controls.py
+
+From the pinned current-engine checkout:
+    PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=baseline/HLE_Rebuild_R21B:. python -m unittest tests_u8.test_development tests_workflow_development.test_development -v
+
+The original prospective Protocol.json is frozen by Source_Freeze.json. Followup_Protocol.json describes the adaptive tests motivated by the first run. Probe_Freeze.json and Followup_Freeze.json identify the scripts used. These are research checks, not a new release gate or full current-engine regression.
+
+EVIDENCE
+Original suite logs and results: evidence/verify_*.log and .result.json.
+Dual/solo witnesses: Witness_Results.json and dual_solo_traces.jsonl.gz.
+240 one-seeded ordered nonidentity pairs: Pair_Results.json and pair_traces.jsonl.gz.
+Document timing differences: Document_Mismatches.json. These are retained even after explaining them by seeding.
+IEE factorial and diagnostic interventions: Gate_Chord_Results.json and gate_chord_traces.json.gz.
+32 both-seeded followups, 64 all-type factorial runs, retention, demand, chord, structural and gate checks: Control_Results.json.
+Current engine: current-development-tests.log (16 selected methods).
+
+FAILURE PRESERVATION
+The first control harness attempt failed at a KeyError because pyref dcnh_cell returns quotient coordinate tuples while the harness expected letter labels. No engine code failed or changed. evidence/failed-control-attempt1 contains that exact harness, log and freeze. The corrected harness maps quotient coordinates to their names explicitly and was re-frozen and rerun in full. The study conclusions use the completed corrected run.
+
+INTERVENTIONS
+The following are diagnostic controls, not naturally achieved development or recommended default laws: manually initializing a candidate to isolate its retention test; removing a pending queue once; temporarily disabling chord functions; removing carried/walk labels during delivery; forcing one tick's intention through the existing API. The 64 gate truth-table cases are synthetic states. Natural witnesses and these controls have separate result fields.
+
+BOUNDS
+The 40- and 80-tick horizons establish only observations within those windows. A pair without closure in 80 ticks has not been proved sterile forever. The earlier canon suite has its own longer and ensemble fixtures, kept separate. Facet labels and provenance are not semantic task payloads. These simulations do not establish claims about people.
+
+DECISION
+See Model_G_Closure_Findings.html for the tested conclusions and five-batch implementation proposal. Historical dynamics should be reproduced as an explicit controller configuration. Successful demand-specific reuse should be demonstrated with the current engine's content-bearing operations and retained-capacity evidence. The bridge between these two systems remains unimplemented and requires a separate prospective contract.

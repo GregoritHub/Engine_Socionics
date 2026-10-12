@@ -1,0 +1,22 @@
+{
+  "world_gamma": "structural:generic_v1",
+  "allowed_child_archetypes": [
+    "guard",
+    "walker"
+  ],
+  "global_event_vocabulary": [
+    "perceive",
+    "stand_down",
+    "time_advance"
+  ],
+  "observation_policy": {
+    "default_parent_depth": [
+      "access",
+      "paired"
+    ],
+    "sibling_visibility": "route_only"
+  },
+  "initial_foreign": {
+    "phase": "day"
+  }
+}

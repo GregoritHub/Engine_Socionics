@@ -1,0 +1,7 @@
+{
+  "full_theory/retention.py": "30417ac21b02ba069308a5f15c85f96ef495326ed7b6170ed66b5cc307b1be06",
+  "full_theory/retention_audit.py": "188095e11a3cf0f51270b46892190ab5273876e3b9874aac7c0f46f7e2241856",
+  "tools/evaluate_ft3.py": "b329d396ced8513d34adbeb921d525577499159c303b080a47fe2ac39401b2cb",
+  "tests_ft3/test_retention.py": "a2c66513656fc41d964072a233076625cde1372cb8740a3c640a34548fb69794",
+  "contracts/ft/FT3_Protocol_v1.json": "dc23ee9911a80e13dd0017de92697eacd57d91a444dacf3069a2f94cf18ee485"
+}

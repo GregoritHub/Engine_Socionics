@@ -1,0 +1,12 @@
+{
+  "script": "verify_canon",
+  "exit_code": 0,
+  "seconds": 115.417,
+  "pass_lines": 55,
+  "fail_lines": [],
+  "tail": [
+    "PASS  floor.not_a_constant",
+    "================================================================",
+    "all passed"
+  ]
+}

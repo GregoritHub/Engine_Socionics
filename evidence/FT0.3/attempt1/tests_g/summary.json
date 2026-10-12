@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 0.11305013699893607,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_all_sixteen_table_rows",
+      "status": "passed",
+      "seconds": 0.006523296004161239
+    },
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_axis_pairs_are_the_four_core_element_pairs",
+      "status": "passed",
+      "seconds": 0.0019360039950697683
+    },
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_formulas_fill_three_positions_of_the_expected_plane",
+      "status": "passed",
+      "seconds": 0.012727922003250569
+    },
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_grade_identity_on_all_positions",
+      "status": "passed",
+      "seconds": 3.409999771974981e-05
+    },
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_integer_recovery_exhaustive_small_fields_and_large_basis",
+      "status": "passed",
+      "seconds": 0.04101434000040172
+    },
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_load_tilt_equations_and_input_not_mutated",
+      "status": "passed",
+      "seconds": 4.1781997424550354e-05
+    },
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_sign_patterns_and_parities",
+      "status": "passed",
+      "seconds": 9.342799603473395e-05
+    },
+    {
+      "test_id": "tests_g.test_axes.AxisTests.test_ties_and_invalid_integer_domains_explicit",
+      "status": "passed",
+      "seconds": 0.0001280979995499365
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_all_128_elements_and_signs_against_transcribed_source",
+      "status": "passed",
+      "seconds": 0.0030842570049571805
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_all_source_position_attributes",
+      "status": "passed",
+      "seconds": 0.0031312049977714196
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_grade_bits_and_two_independent_field_formulas",
+      "status": "passed",
+      "seconds": 4.030900163343176e-05
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_invalid_inputs_rejected_and_results_not_shared",
+      "status": "passed",
+      "seconds": 0.0001810469984775409
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_labels_equal_kernel_character_on_all_types",
+      "status": "passed",
+      "seconds": 5.054500070400536e-05
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_partners_match_source_blocks_and_grades",
+      "status": "passed",
+      "seconds": 3.6634002753999084e-05
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_source_spine_and_crossed_names_only",
+      "status": "passed",
+      "seconds": 0.0014007350036990829
+    },
+    {
+      "test_id": "tests_g.test_model_g.ModelGTests.test_unique_reindexing_of_all_40320_permutations",
+      "status": "passed",
+      "seconds": 0.03984901200601598
+    }
+  ]
+}

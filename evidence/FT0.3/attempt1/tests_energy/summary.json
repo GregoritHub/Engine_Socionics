@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 101.89471813000273,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_energy.test_conditioning.ConditioningTests.test_completed_boundary_partial_cancel_and_empty_ties",
+      "status": "passed",
+      "seconds": 0.8003653880005004
+    },
+    {
+      "test_id": "tests_energy.test_conditioning.ConditioningTests.test_unpaid_forged_completion_and_missing_wallet_rejected",
+      "status": "passed",
+      "seconds": 0.7136546149995411
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_actual_prepaid_exhaustion_and_cancel_preserve_energy",
+      "status": "passed",
+      "seconds": 2.8646328760005417
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_ample_raw_outputs_and_time_match",
+      "status": "passed",
+      "seconds": 1.6880443999980344
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_creation_identity_legacy_bytes_and_checkpoint",
+      "status": "passed",
+      "seconds": 3.0967139970016433
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_every_time_boundary_resume_and_cancellation",
+      "status": "passed",
+      "seconds": 90.40544651399978
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_forged_energy_model_type_and_refund_rejected",
+      "status": "passed",
+      "seconds": 1.029970689000038
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_preextension_legacy_checkpoint_bytes_and_audit",
+      "status": "passed",
+      "seconds": 1.0129247570002917
+    },
+    {
+      "test_id": "tests_energy.test_energy.EnergyTests.test_table_all_types_positions_offsets_and_quanta",
+      "status": "passed",
+      "seconds": 0.279954687001009
+    }
+  ]
+}

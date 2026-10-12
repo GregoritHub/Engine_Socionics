@@ -1,0 +1,6 @@
+{application, le_oig,
+ [{description, "Living Engine v2 - le_oig"},
+  {vsn, "2.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}]}.

@@ -1,0 +1,21 @@
+test_retention (unittest.loader._FailedTest.test_retention) ... ERROR
+
+======================================================================
+ERROR: test_retention (unittest.loader._FailedTest.test_retention)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_retention
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 8, in <module>
+    from hle_unified.workflow_interruption import WorkflowInterruptionEngine as Engine
+ModuleNotFoundError: No module named 'hle_unified.workflow_interruption'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

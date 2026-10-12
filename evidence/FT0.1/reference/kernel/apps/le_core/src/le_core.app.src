@@ -1,0 +1,6 @@
+{application, le_core,
+ [{description, "Living Engine v2 - le_core"},
+  {vsn, "2.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}]}.

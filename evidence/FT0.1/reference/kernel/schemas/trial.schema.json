@@ -1,0 +1,14 @@
+{
+  "$schema_name": "trial",
+  "optional": {
+    "order_index": "int",
+    "randomization_seed": "int",
+    "session_id": "str"
+  },
+  "required": {
+    "condition_id": "str",
+    "subject_id": "str",
+    "trial_id": "str"
+  },
+  "version": "1"
+}

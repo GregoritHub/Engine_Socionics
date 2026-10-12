@@ -1,0 +1,143 @@
+{
+ "activation": {
+  "seq": 208,
+  "first": 192,
+  "sterile": 0,
+  "patterns": {
+   "('lateral_A', 'lateral_A')": 64,
+   "('complementary', 'lateral_A')": 176,
+   "('lateral_E', 'lateral_A')": 16
+  }
+ },
+ "benefit": {
+  "seq": 32,
+  "first": 32,
+  "sterile": 32,
+  "patterns": {
+   "('sterile', 'sterile')": 224,
+   "('lateral_E', 'sterile')": 32
+  }
+ },
+ "benefit_inverse": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('sterile', 'sterile')": 256
+  }
+ },
+ "business": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('sterile', 'sterile')": 256
+  }
+ },
+ "conflict": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('sterile', 'sterile')": 256
+  }
+ },
+ "contrary": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('sterile', 'sterile')": 256
+  }
+ },
+ "duality": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('complementary', 'complementary')": 256
+  }
+ },
+ "identity": {
+  "seq": 32,
+  "first": 32,
+  "sterile": 32,
+  "patterns": {
+   "('lateral_A', 'sterile')": 32,
+   "('lateral_A', 'lateral_A')": 224
+  }
+ },
+ "kindred": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('complementary', 'complementary')": 256
+  }
+ },
+ "mirage": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('sterile', 'sterile')": 256
+  }
+ },
+ "mirror": {
+  "seq": 52,
+  "first": 52,
+  "sterile": 52,
+  "patterns": {
+   "('sterile', 'lateral_E')": 28,
+   "('lateral_E', 'lateral_E')": 8,
+   "('sterile', 'sterile')": 196,
+   "('lateral_E', 'sterile')": 24
+  }
+ },
+ "quasi_identity": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('sterile', 'sterile')": 256
+  }
+ },
+ "semi_duality": {
+  "seq": 64,
+  "first": 64,
+  "sterile": 64,
+  "patterns": {
+   "('lateral_A', 'sterile')": 32,
+   "('lateral_A', 'lateral_A')": 192,
+   "('sterile', 'lateral_A')": 32
+  }
+ },
+ "super_ego": {
+  "seq": 88,
+  "first": 88,
+  "sterile": 88,
+  "patterns": {
+   "('lateral_E', 'sterile')": 88,
+   "('lateral_E', 'lateral_E')": 40,
+   "('sterile', 'sterile')": 128
+  }
+ },
+ "supervision": {
+  "seq": 208,
+  "first": 192,
+  "sterile": 0,
+  "patterns": {
+   "('lateral_A', 'complementary')": 128,
+   "('complementary', 'complementary')": 64,
+   "('complementary', 'lateral_A')": 64
+  }
+ },
+ "supervision_inverse": {
+  "seq": 0,
+  "first": 0,
+  "sterile": 0,
+  "patterns": {
+   "('sterile', 'sterile')": 256
+  }
+ }
+}

@@ -1,0 +1,15 @@
+test_both_handoffs_have_content_and_later_use (test_content.ContentTests.test_both_handoffs_have_content_and_later_use) ... ok
+test_decorative_provenance_does_not_change_semantics (test_content.ContentTests.test_decorative_provenance_does_not_change_semantics) ... ok
+test_essential_operand_change_at_fixed_labels_and_cost (test_content.ContentTests.test_essential_operand_change_at_fixed_labels_and_cost) ... ok
+test_forged_aspect_and_stale_job_rejected (test_content.ContentTests.test_forged_aspect_and_stale_job_rejected) ... ok
+test_independent_auditor_rejects_forged_receipt_and_packet (test_content.ContentTests.test_independent_auditor_rejects_forged_receipt_and_packet) ... ok
+test_labels_only_and_wrong_receiver (test_content.ContentTests.test_labels_only_and_wrong_receiver) ... ok
+test_matched_chord_ablation (test_content.ContentTests.test_matched_chord_ablation) ... ok
+test_missing_operand_and_relabel_rejected (test_content.ContentTests.test_missing_operand_and_relabel_rejected) ... ok
+test_paid_partial_uptake_and_duplicate (test_content.ContentTests.test_paid_partial_uptake_and_duplicate) ... ok
+test_private_content_is_not_public_competence (test_content.ContentTests.test_private_content_is_not_public_competence) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 12.205s
+
+OK

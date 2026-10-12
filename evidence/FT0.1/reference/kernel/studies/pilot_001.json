@@ -1,0 +1,52 @@
+{
+ "study_id": "pilot_001",
+ "mode": "demonstration",
+ "notes": "Four-condition transition study of SPEC section 39, run here on labeled synthetic data as a pipeline demonstration. Conditions share the same start probe and designed target; only the induced route differs. v2.1: predicted_intermediate corrected to a true shortest-route waypoint (Fi for the IEE reference TIM); the former Fe condition is retained as chord_assisted, an explicitly Model G (M4) prediction distinct from the M3 routing-distance hypothesis.",
+ "conditions": [
+  "direct",
+  "predicted_intermediate",
+  "chord_assisted",
+  "control_intermediate"
+ ],
+ "condition_definitions": {
+  "direct": {
+   "start_probe": "ne",
+   "designed_target_ie": "ti",
+   "intermediates": []
+  },
+  "predicted_intermediate": {
+   "start_probe": "ne",
+   "designed_target_ie": "ti",
+   "intermediates": [
+    "fi"
+   ],
+   "rationale": "for the IEE reference TIM, Fi lies on a shortest Ne-Ti route of the pure routing cube (routing distance Ne-Ti = 2; the shortest-route intermediates are exactly Fi and Se); waypoint completion length equals the direct distance"
+  },
+  "chord_assisted": {
+   "start_probe": "ne",
+   "designed_target_ie": "ti",
+   "intermediates": [
+    "fe"
+   ],
+   "rationale": "Fe is NOT on a shortest Ne-Ti route of the pure routing cube (waypoint completion length 4); it is reachable in one step only via the directed Model G chord Ne->Fe, after which Fe-Ti is a primitive edge (hybrid length 2). This condition tests the M4 hybrid-graph prediction, not the M3 routing-distance prediction.",
+   "hypothesis_tag": "H4_model_g_chord"
+  },
+  "control_intermediate": {
+   "start_probe": "ne",
+   "designed_target_ie": "ti",
+   "intermediates": [
+    "ni"
+   ],
+   "rationale": "matched-length control: Ni is on no shortest Ne-Ti route in either the pure routing cube or the hybrid graph for the reference TIM (waypoint completion length 4 in both)"
+  }
+ },
+ "trials_per_condition": 6,
+ "randomization_seed": 20260812,
+ "primary_hypothesis": "H2_routing_distance",
+ "predicted_ordering": [
+  "direct <= predicted_intermediate < control_intermediate on log latency (H2, pure routing cube)",
+  "chord_assisted < control_intermediate iff the hybrid-graph (M4) mechanism is real; chord_assisted ~ control_intermediate under pure M3 routing"
+ ],
+ "task_registry_version": "1",
+ "protocol_version": "2"
+}

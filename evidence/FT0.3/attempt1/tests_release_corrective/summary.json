@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 0.5501853399982792,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_release_corrective.test_longitudinal.CorrectiveLongitudinalTests.test_preparation_cannot_count_as_auditor_rejection",
+      "status": "passed",
+      "seconds": 8.628800424048677e-05
+    },
+    {
+      "test_id": "tests_release_corrective.test_longitudinal.CorrectiveLongitudinalTests.test_real_forgery_rejected_and_accepting_auditor_fails",
+      "status": "passed",
+      "seconds": 0.5444286940037273
+    },
+    {
+      "test_id": "tests_release_corrective.test_native_verifier.NativeCoverageVerifierTests.test_duplicate_cannot_hide_missing_boundary",
+      "status": "passed",
+      "seconds": 0.00040722000267123803
+    },
+    {
+      "test_id": "tests_release_corrective.test_native_verifier.NativeCoverageVerifierTests.test_same_total_wrong_setting_fails",
+      "status": "passed",
+      "seconds": 0.00012989200331503525
+    },
+    {
+      "test_id": "tests_release_corrective.test_parent_verifier.ParentVerifierTests.test_accepting_auditor_cannot_count_forged_parent_rejection",
+      "status": "passed",
+      "seconds": 6.7790002503898e-05
+    },
+    {
+      "test_id": "tests_release_corrective.test_parent_verifier.ParentVerifierTests.test_duplicate_scenario_does_not_supply_eight_worlds",
+      "status": "passed",
+      "seconds": 2.5648005248513073e-05
+    },
+    {
+      "test_id": "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_cross_cell_native_mapping_rejected",
+      "status": "passed",
+      "seconds": 6.516600114991888e-05
+    },
+    {
+      "test_id": "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_duplicate_method_rejected",
+      "status": "passed",
+      "seconds": 0.0005701300033251755
+    },
+    {
+      "test_id": "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_missing_historical_bytes_block_mapping",
+      "status": "passed",
+      "seconds": 0.0005377019988372922
+    },
+    {
+      "test_id": "tests_release_corrective.test_release_preparation.ReleasePreparationTests.test_missing_inherited_job_rejected",
+      "status": "passed",
+      "seconds": 0.0015427840044139884
+    }
+  ]
+}

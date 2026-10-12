@@ -1,0 +1,11 @@
+test_all_sixteen_matched_route_face_pairs (tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_all_sixteen_matched_route_face_pairs) ... ok
+test_distinct_operation_accounting_and_duplicate_child_rejection (tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_distinct_operation_accounting_and_duplicate_child_rejection) ... ok
+test_face_pair_requires_the_same_fresh_start (tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_face_pair_requires_the_same_fresh_start) ... ok
+test_four_parent_lifecycle_worlds (tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_four_parent_lifecycle_worlds) ... ok
+test_parent_summary_grants_no_model_competence_or_authority (tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_parent_summary_grants_no_model_competence_or_authority) ... ok
+test_raw_parent_capacity_mutation_is_rejected (tests_workflow_nesting_faces.test_nesting_faces.WorkflowNestingFaceTests.test_raw_parent_capacity_mutation_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 28.494s
+
+OK

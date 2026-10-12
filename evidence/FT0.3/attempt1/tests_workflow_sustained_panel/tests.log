@@ -1,0 +1,12 @@
+test_32_matched_controls_preserve_exact_target_and_cost (tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_32_matched_controls_preserve_exact_target_and_cost) ... ok
+test_actual_payer_fairness_includes_peer_vote_and_reply (tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_actual_payer_fairness_includes_peer_vote_and_reply) ... ok
+test_all_32_declared_cells_have_generated_consumer_and_consequence (tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_all_32_declared_cells_have_generated_consumer_and_consequence) ... ok
+test_finite_turn_pending_and_tamper_rejection (tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_finite_turn_pending_and_tamper_rejection) ... ok
+test_interrupted_restore_is_exact (tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_interrupted_restore_is_exact) ... ok
+test_namespace_and_goal_tampering_rejected (tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_namespace_and_goal_tampering_rejected) ... ok
+test_public_result_is_hidden_until_paid_read (tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_public_result_is_hidden_until_paid_read) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 200.718s
+
+OK

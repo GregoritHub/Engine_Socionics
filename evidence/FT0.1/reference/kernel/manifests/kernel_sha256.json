@@ -1,0 +1,16 @@
+{
+  "source": "Holonic_Living_Engine_V1.zip",
+  "files": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "core.py": "5cbdca29590719d3ab87ba3d664097914c28292be3e3335b168d3149faece96d",
+    "dynamic.py": "2d756abe86dd5baf5c864a646a5c60eae768623ad2c64773a803258edbb045a6",
+    "empirical.py": "ac00d44b896a834b391bdc80948ea6741fc1da874d3b11b6c8ab6e10e98b576b",
+    "features.py": "0b26f0cc92b210f9a0f2fe6f2c11e94a19fb784c30b8ed825e5d3c68179542af",
+    "holon.py": "e68c84d3a871ec3ec52048e7073b8ab527386bef8ac6dab0197b3e841d42513e",
+    "holon_config.py": "a434a54d635f73599e3dc4a070592c612d375c47296e3187125d6bdb6d5035fc",
+    "oig.py": "61eca117e4da8b304abbd130954a0305bcb044a95c7f5ba713124f46069330fc",
+    "schemas.py": "1726b99013e84ee5740de1621e113ae53f0c83a84318b0e9ada18aa0509e2339",
+    "verify_all.py": "1154e99bdc30d42024eb775a14a36e4bbfc99e2023856b41429dec3150c79f6b",
+    "verify_holon.py": "bb1c3c699c4669a587c488a31f2204dc9e9da02834f0ab15eb30e00799a0eab1"
+  }
+}

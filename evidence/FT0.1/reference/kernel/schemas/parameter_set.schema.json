@@ -1,0 +1,14 @@
+{
+  "$schema_name": "parameter_set",
+  "optional": {
+    "fit_diagnostics": "dict",
+    "uncertainty": "dict"
+  },
+  "required": {
+    "estimates": "dict",
+    "fitted_from_dataset_hash": "str",
+    "model_name": "str",
+    "parameter_version": "str"
+  },
+  "version": "1"
+}

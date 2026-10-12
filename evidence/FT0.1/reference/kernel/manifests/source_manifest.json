@@ -1,0 +1,33 @@
+{
+  "kind": "source_manifest",
+  "hashes": {
+    "A_Unified_Mathematical_Architecture_of_Socionics.docx": "89fbd25b388c406d89a36d15056273e2eea2912aee653aa0a22be35eb7800511",
+    "Living_Engine.zip": "ef2fd24d34a0da879a0809b7365b713e5d6ac31b896cd9d1eac67df6b458db41",
+    "Observational_Information_Geometry_Essential_Theory_Examiner_Edition_rev2.docx": "d97c53f5dd4e534c63cb13d2009cbfce1aaaf1a1e581f0819de7f864504b9af5",
+    "Unified_Shell_Geometry_and_Developmental_Dynamics_Readable_Edition.docx": "176fc991d82574a0c8d64a78f0142e27b7593d4b9088545ca1650a2cb251665c",
+    "Archetypal_Shadow_Complex_-_The_Crux_in_the_Locus_of_Control.docx": "eb329849dba6e1d4216bdd9f709c75472a8187bbadfb410e5e940e90fdbbf167"
+  },
+  "secondary_sources": {
+    "gulenko_energy_model_g_socioniks_113": {
+      "url": "https://socioniks.net/en/article/?id=113",
+      "title": "Energy model G in Humanitarian socionics. What is it?",
+      "status": "external_secondary",
+      "admitted": "V5, on delegated decision; strike by deleting this entry and metabolism/energy.py LEVEL_BY_G",
+      "depends": [
+        "metabolism.energy.LEVEL_BY_G",
+        "metabolism.handler.FIRING (R6)"
+      ],
+      "claims_used": [
+        "four energy levels by vertical block: maximum(1,5) optimum(2,6) minimum(3,7) pessimum(4,8) in Model G numbering",
+        "gas/brake pairs: maximum +-, optimum ++, minimum -+, pessimum --"
+      ]
+    }
+  },
+  "revisions_read": {
+    "A_Unified_Mathematical_Architecture_of_Socionics_Verified_Revision.docx": {
+      "sha256": "41ebe1b128c805ae5f48c85f8029d611e6c49d0c0983a58631fc8750689d3a79",
+      "status": "read for the A37 source net (docs/A37_RESEARCH_NET.md s.5); NOT the pinned edition; hashes above unchanged",
+      "date": "2026-09-04"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+subject_id,primary_tim,method,confidence,alternatives,rater_ids,agreement,typing_quality
+s01,iee,structured_interview_two_raters,0.85,ile,r1;r2,0.9,nonconfirmatory
+s02,lii,structured_interview_two_raters,0.8,,r1;r2,0.85,nonconfirmatory
+s03,sei,structured_interview_two_raters,0.75,sli,r1;r3,0.8,nonconfirmatory
+s04,ese,structured_interview_two_raters,0.8,,r2;r3,0.88,nonconfirmatory
+s05,lie,structured_interview_two_raters,0.7,ile,r1;r2,0.75,nonconfirmatory
+s06,esi,structured_interview_two_raters,0.82,,r2;r3,0.9,nonconfirmatory

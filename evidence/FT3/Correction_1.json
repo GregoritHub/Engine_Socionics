@@ -1,0 +1,8 @@
+{
+  "failure": "attempt1 test discovery failed: wrong existing workflow interruption module path; no proposed FT3 methods executed",
+  "correction": "Import the existing workflow_interruption_execution module. All failed output retained; acceptance scope remains all twelve methods and two witnesses.",
+  "changed": [
+    "tests_ft3/test_retention.py"
+  ],
+  "sha256": "e119c55139178cba0bea63bd308ec1d0c4618ab6705d90a137cac6da7e801513"
+}

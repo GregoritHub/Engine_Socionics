@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "tests": 23,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 250.74048402700282,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_all_32_cells_and_matched_defining_step_controls",
+      "status": "passed",
+      "seconds": 44.819669463002356
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_cancel_exhaustion_and_missing_command_preserve_paid_work",
+      "status": "passed",
+      "seconds": 21.24526460299967
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_changed_membership_invalidates_paid_work",
+      "status": "passed",
+      "seconds": 0.7284175399981905
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_display_labels_do_not_determine_semantics_and_duplicate_commands_are_idempotent",
+      "status": "passed",
+      "seconds": 0.6315977839985862
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_draft_and_wrong_or_duplicate_votes_cannot_ratify",
+      "status": "passed",
+      "seconds": 1.1892603550004424
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_duplicate_readings_cannot_fabricate_two_practices",
+      "status": "passed",
+      "seconds": 0.45606367900472833
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_exact_continuation_all_cells_three_paid_boundaries",
+      "status": "passed",
+      "seconds": 164.25018364000425
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_foreign_unread_wrong_context_and_authored_shared_claims_rejected",
+      "status": "passed",
+      "seconds": 0.32788012399396393
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_generated_rule_teaching_and_coupled_procedure_material_composition",
+      "status": "passed",
+      "seconds": 1.9391735320023145
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_hypothetical_completion_cannot_skip_actual_physical_work",
+      "status": "passed",
+      "seconds": 0.32410787400294794
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_material_failure_and_one_attempt_shared_commitment",
+      "status": "passed",
+      "seconds": 1.1482859030002146
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_missing_receiver_read_and_foreign_message_disclosure_rejected",
+      "status": "passed",
+      "seconds": 1.0175136319958256
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_nested_reconciliation_and_teaching_cannot_erase_action_conflicts",
+      "status": "passed",
+      "seconds": 0.8964677420008229
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_observed_chronology_not_input_permutation_determines_inference",
+      "status": "passed",
+      "seconds": 0.5187854370014975
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_observed_maintenance_consequence_changes_later_owned_response",
+      "status": "passed",
+      "seconds": 0.9844092690036632
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_raw_tampering_with_semantics_price_time_or_public_uptake_fails",
+      "status": "passed",
+      "seconds": 1.7445459879963892
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_received_operating_model_does_not_transfer_ownership_authority",
+      "status": "passed",
+      "seconds": 0.6030729800040717
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_receivers_answer_changed_case_without_borrowing_binding",
+      "status": "passed",
+      "seconds": 0.9294610639990424
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_two_members_cannot_commit_an_uninvolved_third_person",
+      "status": "passed",
+      "seconds": 0.5772441580047598
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_undelivered_physical_change_cannot_rewrite_theory",
+      "status": "passed",
+      "seconds": 0.8587012150019291
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_understanding_dissent_and_practiced_skill_are_distinct",
+      "status": "passed",
+      "seconds": 2.6500572320001083
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_understood_contribution_can_retain_incompatible_receiver_window",
+      "status": "passed",
+      "seconds": 0.8146457830007421
+    },
+    {
+      "test_id": "tests_c7_workflow.test_workflows.WorkflowTests.test_window_conflict_cycle_missing_dependency_and_order_matter",
+      "status": "passed",
+      "seconds": 2.08257171799778
+    }
+  ]
+}

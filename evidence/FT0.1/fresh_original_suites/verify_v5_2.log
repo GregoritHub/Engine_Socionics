@@ -1,0 +1,38 @@
+PASS  kernel.manifest_intact
+PASS  defaults.are_v5
+PASS  style.three_dichotomies_are_two
+PASS  style.carriers_are_cosets
+PASS  style.subgroup_order_4
+PASS  style.supervision_fixes_style
+PASS  style.is_the_supervision_ring
+PASS  style.duality_benefit_contrary_map_to_partner
+PASS  relay.yield_type_invariant
+PASS  relay.contrary_symmetric
+PASS  relay.activation_outranks_duality
+PASS  relay.kindred_equals_duality
+PASS  relay.benefit_sterile_both_ways
+PASS  relay.supervisee_sterile_supervisor_alt3
+PASS  relay.duality_first_closure_is_complementary
+PASS  relay.identity_and_semi_duality_lose_lateral_A
+PASS  relay.super_ego_loses_serpent_mirror_gains_it
+PASS  relay.supervisor_closes_complement_first
+PASS  relay.first_closures_one_tick_later
+   v5   alt3 balance 0.334 idle 0.249
+   pure alt3 balance 0.000 idle 0.005 unvalued 0.015 | alt2 balance 0.000 | no-world alt3 0.015
+PASS  pure.v5_developed_holon_unbalanced
+PASS  pure.relay_developed_holon_balanced
+PASS  pure.relay_developed_holon_not_idle
+PASS  pure.relay_developed_holon_on_valued_lap
+PASS  pure.holds_without_world
+PASS  pure.no_altitude_branch_in_metabolism
+PASS  prov.world_packet_starts_a_walk
+PASS  prov.developed_dual_output_is_joint
+PASS  prov.dual_walk_alternates_holons
+PASS  prov.walk_records_the_chord
+PASS  prov.walk_aspects_are_carried
+PASS  prov.joint_fraction_rises_with_altitude
+PASS  spectrum.every_tick.one_relative_spectrum_per_altitude_all_16_types
+PASS  spectrum.relay.one_relative_spectrum_per_altitude_all_16_types
+PASS  spectrum.cognitive_style_has_no_emission_signature
+================================================================
+all passed

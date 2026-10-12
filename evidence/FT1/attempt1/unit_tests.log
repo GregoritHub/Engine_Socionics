@@ -1,0 +1,10 @@
+test_interleaved_configuration (test_historical.HistoricalTests.test_interleaved_configuration) ... ok
+test_metadata_and_chord_controls (test_historical.HistoricalTests.test_metadata_and_chord_controls) ... ok
+test_no_resource_model_overload (test_historical.HistoricalTests.test_no_resource_model_overload) ... ok
+test_reference_hashes (test_historical.HistoricalTests.test_reference_hashes) ... ok
+test_rehashed_forgery_rejected (test_historical.HistoricalTests.test_rehashed_forgery_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.541s
+
+OK

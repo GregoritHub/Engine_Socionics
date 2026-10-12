@@ -1,0 +1,18 @@
+{
+  "$schema_name": "prediction",
+  "optional": {
+    "code_commit": "str",
+    "predicted_ordering": "list",
+    "predicted_route": "list",
+    "source_manifest_hash": "str",
+    "structural_features": "dict"
+  },
+  "required": {
+    "hypothesis": "str",
+    "model_name": "str",
+    "model_version": "str",
+    "parameter_version": "str",
+    "trial_id": "str"
+  },
+  "version": "1"
+}

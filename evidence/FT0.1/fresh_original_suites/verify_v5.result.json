@@ -1,0 +1,12 @@
+{
+  "script": "verify_v5",
+  "exit_code": 0,
+  "seconds": 18.361,
+  "pass_lines": 106,
+  "fail_lines": [],
+  "tail": [
+    "PASS  commit.reach_of_written_domains_contains_retaining_positions",
+    "================================================================",
+    "106/106 passed"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "archetypes": {
+    "guard": {
+      "gamma": "TIM:LSI",
+      "initial_content_schema": {
+        "domain": {},
+        "foreign": {
+          "posture": "watch"
+        }
+      },
+      "allowed_events": [
+        "perceive",
+        "stand_down",
+        "time_advance"
+      ],
+      "default_obs_depth": [
+        "route",
+        "paired"
+      ],
+      "initial_seat": 1
+    },
+    "walker": {
+      "gamma": "untyped",
+      "initial_content_schema": {
+        "domain": {},
+        "foreign": {
+          "motion": "idle"
+        }
+      },
+      "allowed_events": [
+        "time_advance"
+      ],
+      "default_obs_depth": [
+        "route",
+        "paired"
+      ]
+    }
+  }
+}

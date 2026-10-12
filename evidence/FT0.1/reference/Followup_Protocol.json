@@ -1,0 +1,8 @@
+{
+ "reason":"Resolve concrete discrepancies observed after Protocol.json, without changing the original run or source.",
+ "seeding":"verify_canon.py seeds both partners, whereas the Program section 6 witness seeds only the focal actor. Re-run the 32 timing-mismatched activation/supervisee cases with both seeded; preserve the one-seed results.",
+ "retention":"Test withdrawal after a real closure, replacing compatible kept content with disjoint facets through receive, alternate facet contents during a candidate window, and consecutive directed Role/PoLR overload through the existing intention API.",
+ "gate_generalization":"Run the four firing/gate combinations for all 16 one-seeded dual witnesses, 40 ticks, to determine whether the IEE finding generalizes.",
+ "structure":"Compare pyref and rebuilt stacks and adjacency over every type/seat; verify n, cp, opposition, DCNH and lap identities. These are structural claims only.",
+ "classification":"Diagnostic state initialization and ablations are labeled interventions, not achieved development. Original package and current repository stay unmodified."
+}

@@ -1,0 +1,15 @@
+{
+  "$schema_name": "observation",
+  "optional": {
+    "generator_parameters": "dict",
+    "generator_version": "str",
+    "instrument_version": "str",
+    "synthetic": "bool"
+  },
+  "required": {
+    "raw": "dict",
+    "subject_id": "str",
+    "trial_id": "str"
+  },
+  "version": "1"
+}

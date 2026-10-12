@@ -1,0 +1,16 @@
+{
+  "$schema_name": "state_code",
+  "optional": {
+    "alternative_ie": "ie",
+    "blind": "bool",
+    "coding_protocol_version": "str",
+    "evidence_ref": "str"
+  },
+  "required": {
+    "coded_ie": "ie",
+    "coder_id": "str",
+    "confidence": "number",
+    "observation_id": "str"
+  },
+  "version": "1"
+}

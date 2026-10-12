@@ -1,0 +1,7 @@
+{
+  "full_theory/content.py": "5e20d63bb9947d66ab022fcf8f7004a26474efcb232c11e54fe6fb2f1f97a16b",
+  "full_theory/content_audit.py": "ba82ae21fda0115bf8fdfd5d75a147e9d19f90878322d5bd48d7686146cd7983",
+  "tools/evaluate_ft2.py": "600df914d9ad73ea55d860dc75c179c83942abec9f93d5e925418679b17f9bce",
+  "tests_ft2/test_content.py": "8e7f182dc6b5740e01ebe5a588534783f6f8b209789e5c207c0d4b38664e955a",
+  "contracts/ft/FT2_Protocol_v1.json": "77abfd93e696aea89f77281d48166c5a1c24ecb4c9976bd0bf58cef387444688"
+}

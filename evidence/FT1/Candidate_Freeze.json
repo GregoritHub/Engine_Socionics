@@ -1,0 +1,7 @@
+{
+  "full_theory/__init__.py": "dcd9ba23a829fd009b017d400a7497bf11f2f6e86dce0dc2c9f5a399e123b7c5",
+  "full_theory/historical.py": "43302ecb7a07893515d5514d4de1150e7aca87f62773c49c4dafaeb7e8252e53",
+  "tools/evaluate_ft1.py": "7dd0c585abbd922c4f7ec73950d67dce2bfa2300ae982fc1828f62f71e58018b",
+  "tests_ft1/test_historical.py": "52e1fe19c2ee30c51012f88fa1b32fa86c776d126ef7e27c3e26ce3bf6511e54",
+  "contracts/ft/FT1_Protocol_v1.json": "3036d08f3298ca2a7af051789aa2d8c7938c2f191485b19a3497398aacdd6b3b"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema_name": "model_result",
+  "optional": {
+    "holdout": "str",
+    "notes": "str"
+  },
+  "required": {
+    "dataset_hash": "str",
+    "metric": "str",
+    "model_name": "str",
+    "value": "number"
+  },
+  "version": "1"
+}

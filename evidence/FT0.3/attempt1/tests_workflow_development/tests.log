@@ -1,0 +1,9 @@
+test_forged_correction_scope_and_origin_are_rejected (tests_workflow_development.test_development.WorkflowDevelopmentTests.test_forged_correction_scope_and_origin_are_rejected) ... ok
+test_original_material_correction_and_same_changed_recurrence (tests_workflow_development.test_development.WorkflowDevelopmentTests.test_original_material_correction_and_same_changed_recurrence) ... ok
+test_supported_work_and_withdrawal_do_not_award_capacity (tests_workflow_development.test_development.WorkflowDevelopmentTests.test_supported_work_and_withdrawal_do_not_award_capacity) ... ok
+test_three_unsupported_clearances_refuse_without_changing_world (tests_workflow_development.test_development.WorkflowDevelopmentTests.test_three_unsupported_clearances_refuse_without_changing_world) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 36.785s
+
+OK

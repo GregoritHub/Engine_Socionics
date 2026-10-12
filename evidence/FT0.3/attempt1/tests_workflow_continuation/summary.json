@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 16.269192380997993,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_continuation.test_continuation.ContinuationTests.test_budget_exhaustion_retains_paid_partial_work",
+      "status": "passed",
+      "seconds": 1.0477931370041915
+    },
+    {
+      "test_id": "tests_workflow_continuation.test_continuation.ContinuationTests.test_exact_restore_during_comparison_and_feedback",
+      "status": "passed",
+      "seconds": 5.674849137998535
+    },
+    {
+      "test_id": "tests_workflow_continuation.test_continuation.ContinuationTests.test_finite_turns_preserve_pending_state",
+      "status": "passed",
+      "seconds": 1.5718906620022608
+    },
+    {
+      "test_id": "tests_workflow_continuation.test_continuation.ContinuationTests.test_forged_history_and_need_are_rejected",
+      "status": "passed",
+      "seconds": 2.7423522419994697
+    },
+    {
+      "test_id": "tests_workflow_continuation.test_continuation.ContinuationTests.test_generated_chain_has_causal_material_and_personal_result",
+      "status": "passed",
+      "seconds": 2.074850109995168
+    },
+    {
+      "test_id": "tests_workflow_continuation.test_continuation.ContinuationTests.test_withheld_handoff_changes_choice_and_fails_provenance",
+      "status": "passed",
+      "seconds": 3.1549756579988752
+    }
+  ]
+}

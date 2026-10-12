@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "tests": 7,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 200.72016879799776,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_32_matched_controls_preserve_exact_target_and_cost",
+      "status": "passed",
+      "seconds": 96.17629727599706
+    },
+    {
+      "test_id": "tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_actual_payer_fairness_includes_peer_vote_and_reply",
+      "status": "passed",
+      "seconds": 6.813562652001565
+    },
+    {
+      "test_id": "tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_all_32_declared_cells_have_generated_consumer_and_consequence",
+      "status": "passed",
+      "seconds": 85.55166690300393
+    },
+    {
+      "test_id": "tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_finite_turn_pending_and_tamper_rejection",
+      "status": "passed",
+      "seconds": 1.1831247589943814
+    },
+    {
+      "test_id": "tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_interrupted_restore_is_exact",
+      "status": "passed",
+      "seconds": 6.700799942998856
+    },
+    {
+      "test_id": "tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_namespace_and_goal_tampering_rejected",
+      "status": "passed",
+      "seconds": 1.6931039889968815
+    },
+    {
+      "test_id": "tests_workflow_sustained_panel.test_panel.SustainedPanelTests.test_public_result_is_hidden_until_paid_read",
+      "status": "passed",
+      "seconds": 2.5989391859984607
+    }
+  ]
+}

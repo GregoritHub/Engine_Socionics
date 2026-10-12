@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "tests": 40,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 52.21613572000206,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_a_selected_action_cannot_be_enacted_twice",
+      "status": "passed",
+      "seconds": 1.0156095779966563
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_cancelled_physical_work_is_not_successful_collective_work",
+      "status": "passed",
+      "seconds": 1.065763466001954
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_departure_preserves_existing_duties_and_material_effects",
+      "status": "passed",
+      "seconds": 1.3178227669995977
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_membership_change_blocks_an_already_paid_effect",
+      "status": "passed",
+      "seconds": 1.1001617049987544
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_nested_work_matches_explicit_leaf_program",
+      "status": "passed",
+      "seconds": 5.228646032999677
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_newcomer_can_learn_separately_then_accept",
+      "status": "passed",
+      "seconds": 0.7573685219977051
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_newcomer_still_needs_own_acquisition",
+      "status": "passed",
+      "seconds": 2.87805578699772
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_no_collective_step_without_all_assignees_accepting",
+      "status": "passed",
+      "seconds": 0.8387940120010171
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_overlapping_groups_cannot_double_spend_one_tool",
+      "status": "passed",
+      "seconds": 1.256143341997813
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_premature_capacity_retention_is_rejected",
+      "status": "passed",
+      "seconds": 0.938499251002213
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_summary_alone_cannot_authorize_physical_detail",
+      "status": "passed",
+      "seconds": 2.5707482209982118
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_unpracticed_member_cannot_accept_collective_work",
+      "status": "passed",
+      "seconds": 0.6569208209984936
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_unread_physical_observation_does_not_advance_the_run",
+      "status": "passed",
+      "seconds": 0.9426517769970815
+    },
+    {
+      "test_id": "tests_u11.test_collective.CollectiveWorkTests.test_withdrawal_stops_ready_effect_and_keeps_spent_work",
+      "status": "passed",
+      "seconds": 1.1770519860001514
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_budget_exhaustion_never_installs_a_summary",
+      "status": "passed",
+      "seconds": 0.618214165995596
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_cancelling_coordination_preserves_spent_work",
+      "status": "passed",
+      "seconds": 0.7275740760014742
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_external_declaration_cannot_mint_collective_capacity",
+      "status": "passed",
+      "seconds": 0.569325274998846
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_partial_coordination_restores_and_continues_exactly",
+      "status": "passed",
+      "seconds": 2.1116362789980485
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_partial_physical_checkpoint_keeps_run_and_reservation",
+      "status": "passed",
+      "seconds": 3.403409457001544
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_raw_auditor_rejects_forged_summary_values",
+      "status": "passed",
+      "seconds": 0.62171641200257
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_receiving_new_evidence_invalidates_partial_processing",
+      "status": "passed",
+      "seconds": 0.6232624199983547
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_repeat_command_is_idempotent_but_changed_content_is_rejected",
+      "status": "passed",
+      "seconds": 0.5717186509937164
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_restore_rejects_modified_final_state",
+      "status": "passed",
+      "seconds": 1.3536921639970387
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_source_route_is_lawful_for_all_sixteen_types",
+      "status": "passed",
+      "seconds": 7.998353721995954
+    },
+    {
+      "test_id": "tests_u11.test_collective.IntegrityTests.test_u10_checkpoint_adoption_preserves_history_and_continued_language",
+      "status": "passed",
+      "seconds": 0.9781895240012091
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_contextual_boundary_prevents_foreign_group_nesting",
+      "status": "passed",
+      "seconds": 0.6112497690046439
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_direct_person_link_cannot_bypass_own_consent",
+      "status": "passed",
+      "seconds": 0.5504178300034255
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_finite_self_representation_does_not_create_a_membership_cycle",
+      "status": "passed",
+      "seconds": 0.6060016729970812
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_historical_summary_remains_exact_after_real_work",
+      "status": "passed",
+      "seconds": 1.01717903700046
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_independent_detailed_inventory_projection_matches_aggregate",
+      "status": "passed",
+      "seconds": 0.6845182839970221
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_irrelevant_member_revision_keeps_structural_summary_valid",
+      "status": "passed",
+      "seconds": 0.615349382002023
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_membership_cycles_are_rejected_without_partial_changes",
+      "status": "passed",
+      "seconds": 0.73286548100441
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_membership_does_not_transfer_material_ownership",
+      "status": "passed",
+      "seconds": 1.1589322270010598
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_nested_graph_budget_is_a_real_failure",
+      "status": "passed",
+      "seconds": 0.8509794010024052
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_other_actor_cannot_accept_bobs_invitation",
+      "status": "passed",
+      "seconds": 0.693763362003665
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_overlap_counts_each_physical_instance_once",
+      "status": "passed",
+      "seconds": 0.7604996990048676
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_projection_cache_does_not_change_participant_information",
+      "status": "passed",
+      "seconds": 0.5825267959953635
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_resource_inspection_obeys_its_declared_visit_budget",
+      "status": "passed",
+      "seconds": 0.5975753289967543
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_scoped_invalidation_reaches_affected_parents_only",
+      "status": "passed",
+      "seconds": 0.8489195650035981
+    },
+    {
+      "test_id": "tests_u11.test_collective.NestingTests.test_summary_delivery_excludes_dependency_diagnostics",
+      "status": "passed",
+      "seconds": 0.5757352150030783
+    }
+  ]
+}

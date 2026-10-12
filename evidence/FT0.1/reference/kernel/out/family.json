@@ -1,0 +1,817 @@
+{
+ "every_tick": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     4,
+     "lateral_A"
+    ],
+    [
+     8,
+     "complementary"
+    ],
+    [
+     11,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     6,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   [
+    [
+     3,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   []
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     4,
+     "lateral_A"
+    ],
+    [
+     7,
+     "lateral_E"
+    ],
+    [
+     9,
+     "complementary"
+    ]
+   ]
+  ],
+  "super_ego": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "duality": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     7,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   [
+    [
+     3,
+     "lateral_A"
+    ]
+   ]
+  ]
+ },
+ "relay": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     5,
+     "lateral_A"
+    ],
+    [
+     9,
+     "complementary"
+    ],
+    [
+     14,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     9,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   []
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     7,
+     "lateral_E"
+    ],
+    [
+     73,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "super_ego": [
+   []
+  ],
+  "duality": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     9,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   []
+  ]
+ },
+ "relay_boost6": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     5,
+     "lateral_A"
+    ],
+    [
+     12,
+     "complementary"
+    ],
+    [
+     18,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     8,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   [
+    [
+     68,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     6,
+     "lateral_E"
+    ],
+    [
+     73,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "super_ego": [
+   []
+  ],
+  "duality": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     11,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   [
+    [
+     68,
+     "lateral_A"
+    ]
+   ]
+  ]
+ },
+ "turn_only": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     4,
+     "lateral_A"
+    ],
+    [
+     6,
+     "complementary"
+    ],
+    [
+     9,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     8,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   [
+    [
+     68,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   []
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     6,
+     "lateral_E"
+    ],
+    [
+     73,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "super_ego": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "duality": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     8,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   [
+    [
+     68,
+     "lateral_A"
+    ]
+   ]
+  ]
+ },
+ "block_only": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     5,
+     "lateral_A"
+    ],
+    [
+     7,
+     "complementary"
+    ],
+    [
+     10,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     8,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   []
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     8,
+     "lateral_E"
+    ],
+    [
+     75,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "super_ego": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "duality": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     71,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   []
+  ]
+ },
+ "turn_block": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     5,
+     "lateral_A"
+    ],
+    [
+     10,
+     "complementary"
+    ],
+    [
+     20,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     9,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   []
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   []
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     7,
+     "lateral_E"
+    ],
+    [
+     74,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "super_ego": [
+   []
+  ],
+  "duality": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     9,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   []
+  ]
+ },
+ "relay_noboost2": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     5,
+     "lateral_A"
+    ],
+    [
+     10,
+     "complementary"
+    ],
+    [
+     16,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   []
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   []
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "super_ego": [
+   []
+  ],
+  "duality": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     9,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   []
+  ]
+ },
+ "relay_noboost2_boost6": {
+  "benefit": [
+   []
+  ],
+  "supervision_inverse": [
+   []
+  ],
+  "activation": [
+   [
+    [
+     5,
+     "lateral_A"
+    ],
+    [
+     12,
+     "complementary"
+    ],
+    [
+     18,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "conflict": [
+   []
+  ],
+  "kindred": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     8,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "mirage": [
+   []
+  ],
+  "identity": [
+   [
+    [
+     68,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "contrary": [
+   []
+  ],
+  "quasi_identity": [
+   []
+  ],
+  "mirror": [
+   [
+    [
+     68,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "benefit_inverse": [
+   []
+  ],
+  "supervision": [
+   [
+    [
+     4,
+     "complementary"
+    ],
+    [
+     6,
+     "lateral_E"
+    ],
+    [
+     73,
+     "lateral_A"
+    ]
+   ]
+  ],
+  "super_ego": [
+   []
+  ],
+  "duality": [
+   [
+    [
+     5,
+     "complementary"
+    ],
+    [
+     11,
+     "lateral_E"
+    ]
+   ]
+  ],
+  "business": [
+   []
+  ],
+  "semi_duality": [
+   [
+    [
+     68,
+     "lateral_A"
+    ]
+   ]
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+#!/usr/bin/env escript
+%%! -pa apps/le_core/ebin -pa apps/le_socionics/ebin -pa apps/le_oig/ebin -pa apps/le_dynamic/ebin -pa apps/le_empirical/ebin -pa apps/le_api/ebin
+%% le — Living Engine v2 CLI (Erlang escript).
+%% Requires a compiled build (rebar3 compile).  In environments without
+%% Erlang/OTP, use `python3 bin/le.py ...` — the verified 1:1 mirror.
+main(["verify", "all"]) -> ok = le_verify:all();
+main(["verify", "geometry"]) -> ok = le_verify:geometry();
+main(["verify", "oig"]) -> ok = le_verify:oig();
+main(["verify", "empirical-separation"]) ->
+    ok = le_verify:empirical_separation();
+main(["verify", "legacy"]) ->
+    io:format("legacy verification: run the frozen v1.1 suite~n"
+              "  rebar3 eunit --dir apps/le_legacy/living_engine/test~n"
+              "or the environment-independent mirror:~n"
+              "  python3 apps/le_legacy/living_engine/verify/"
+              "living_engine_ref.py~n");
+main(_) ->
+    io:format("usage: le verify all|legacy|geometry|oig|"
+              "empirical-separation~n"
+              "       (study/trial/prediction/observation commands: "
+              "see bin/le.py)~n").

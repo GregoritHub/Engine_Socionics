@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 41.78958822700224,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_cancelled_child_keeps_spending_and_stops_dependents",
+      "status": "passed",
+      "seconds": 1.3763413799970294
+    },
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_exact_restore_inside_social_exchange_and_main_comparison",
+      "status": "passed",
+      "seconds": 8.73749368800054
+    },
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_finite_budget_keeps_unfinished_work",
+      "status": "passed",
+      "seconds": 1.6893988369993167
+    },
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_five_generated_families_and_withheld_prior_controls",
+      "status": "passed",
+      "seconds": 23.782187835000514
+    },
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_no_runtime_goal_can_supply_route_or_forward_result",
+      "status": "passed",
+      "seconds": 0.3173099280029419
+    },
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_public_result_cannot_advance_before_paid_reading",
+      "status": "passed",
+      "seconds": 1.298778800999571
+    },
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_restore_rejects_pending_main_recipe_injection",
+      "status": "passed",
+      "seconds": 1.6385826990008354
+    },
+    {
+      "test_id": "tests_workflow_families.test_families.ContinuedFamiliesTests.test_tampered_result_and_charge_are_rejected",
+      "status": "passed",
+      "seconds": 2.9469380829978036
+    }
+  ]
+}

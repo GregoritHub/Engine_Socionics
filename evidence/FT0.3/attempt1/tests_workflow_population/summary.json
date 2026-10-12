@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "tests": 14,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 51.088553981004225,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_actual_material_feedback_is_delivered_and_paid",
+      "status": "passed",
+      "seconds": 0.7101825289937551
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_exhaustion_is_retained_and_terminates",
+      "status": "passed",
+      "seconds": 1.7974263030046131
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_fabricated_audit_summary_rejected",
+      "status": "passed",
+      "seconds": 1.3347009400022216
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_finite_horizon_and_history_retention",
+      "status": "passed",
+      "seconds": 2.273794150001777
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_foreign_demand_and_duplicate_actor_rejected",
+      "status": "passed",
+      "seconds": 0.3709643949987367
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_legacy_v2_checkpoint_stays_exact",
+      "status": "passed",
+      "seconds": 1.4291938399983337
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_midpaid_resume_exact",
+      "status": "passed",
+      "seconds": 6.510292582999682
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_mixed_legacy_and_workflow_requests",
+      "status": "passed",
+      "seconds": 2.4143741160005447
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_repeated_retained_content_stops_without_capacity_claim",
+      "status": "passed",
+      "seconds": 2.0986633720021928
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_round_robin_never_starves_a_runnable_actor",
+      "status": "passed",
+      "seconds": 1.2339014210010646
+    },
+    {
+      "test_id": "tests_workflow_population.test_population.WorkflowPopulationTests.test_turn_limit_preserves_unfinished_work",
+      "status": "passed",
+      "seconds": 2.8945948510008748
+    },
+    {
+      "test_id": "tests_workflow_population.test_sustained.SustainedWorkflowPopulationTests.test_declared_types_and_task_bounds",
+      "status": "passed",
+      "seconds": 0.37450832199829165
+    },
+    {
+      "test_id": "tests_workflow_population.test_sustained.SustainedWorkflowPopulationTests.test_stop_disabled_world_reaches_declared_horizon",
+      "status": "passed",
+      "seconds": 21.295821981999325
+    },
+    {
+      "test_id": "tests_workflow_population.test_sustained.SustainedWorkflowPopulationTests.test_three_seeded_default_worlds_reconstruct_and_stop",
+      "status": "passed",
+      "seconds": 6.347486274004041
+    }
+  ]
+}

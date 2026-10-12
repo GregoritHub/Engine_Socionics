@@ -1,0 +1,21 @@
+test_all_sixteen_table_rows (tests_g.test_axes.AxisTests.test_all_sixteen_table_rows) ... ok
+test_axis_pairs_are_the_four_core_element_pairs (tests_g.test_axes.AxisTests.test_axis_pairs_are_the_four_core_element_pairs) ... ok
+test_formulas_fill_three_positions_of_the_expected_plane (tests_g.test_axes.AxisTests.test_formulas_fill_three_positions_of_the_expected_plane) ... ok
+test_grade_identity_on_all_positions (tests_g.test_axes.AxisTests.test_grade_identity_on_all_positions) ... ok
+test_integer_recovery_exhaustive_small_fields_and_large_basis (tests_g.test_axes.AxisTests.test_integer_recovery_exhaustive_small_fields_and_large_basis) ... ok
+test_load_tilt_equations_and_input_not_mutated (tests_g.test_axes.AxisTests.test_load_tilt_equations_and_input_not_mutated) ... ok
+test_sign_patterns_and_parities (tests_g.test_axes.AxisTests.test_sign_patterns_and_parities) ... ok
+test_ties_and_invalid_integer_domains_explicit (tests_g.test_axes.AxisTests.test_ties_and_invalid_integer_domains_explicit) ... ok
+test_all_128_elements_and_signs_against_transcribed_source (tests_g.test_model_g.ModelGTests.test_all_128_elements_and_signs_against_transcribed_source) ... ok
+test_all_source_position_attributes (tests_g.test_model_g.ModelGTests.test_all_source_position_attributes) ... ok
+test_grade_bits_and_two_independent_field_formulas (tests_g.test_model_g.ModelGTests.test_grade_bits_and_two_independent_field_formulas) ... ok
+test_invalid_inputs_rejected_and_results_not_shared (tests_g.test_model_g.ModelGTests.test_invalid_inputs_rejected_and_results_not_shared) ... ok
+test_labels_equal_kernel_character_on_all_types (tests_g.test_model_g.ModelGTests.test_labels_equal_kernel_character_on_all_types) ... ok
+test_partners_match_source_blocks_and_grades (tests_g.test_model_g.ModelGTests.test_partners_match_source_blocks_and_grades) ... ok
+test_source_spine_and_crossed_names_only (tests_g.test_model_g.ModelGTests.test_source_spine_and_crossed_names_only) ... ok
+test_unique_reindexing_of_all_40320_permutations (tests_g.test_model_g.ModelGTests.test_unique_reindexing_of_all_40320_permutations) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.110s
+
+OK

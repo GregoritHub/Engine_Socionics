@@ -1,0 +1,18 @@
+{
+  "full_theory/__init__.py": "dcd9ba23a829fd009b017d400a7497bf11f2f6e86dce0dc2c9f5a399e123b7c5",
+  "full_theory/content.py": "5e20d63bb9947d66ab022fcf8f7004a26474efcb232c11e54fe6fb2f1f97a16b",
+  "full_theory/content_audit.py": "ba82ae21fda0115bf8fdfd5d75a147e9d19f90878322d5bd48d7686146cd7983",
+  "full_theory/historical.py": "43302ecb7a07893515d5514d4de1150e7aca87f62773c49c4dafaeb7e8252e53",
+  "full_theory/retention.py": "30417ac21b02ba069308a5f15c85f96ef495326ed7b6170ed66b5cc307b1be06",
+  "full_theory/retention_audit.py": "188095e11a3cf0f51270b46892190ab5273876e3b9874aac7c0f46f7e2241856",
+  "tests_ft3/test_retention.py": "e119c55139178cba0bea63bd308ec1d0c4618ab6705d90a137cac6da7e801513",
+  "contracts/ft/FT0_Baseline_Protocol_v1.json": "ccbce3867cc3c6ba679f4962d1da4b9412353396feda82041951a8e1f9fafc62",
+  "contracts/ft/FT0_Baseline_Protocol_v1.sha256": "c673a26913d206329b1980c05ba42a67e9a0ab9b020db002602fc8f80a4decd5",
+  "contracts/ft/FT1_Protocol_v1.json": "3036d08f3298ca2a7af051789aa2d8c7938c2f191485b19a3497398aacdd6b3b",
+  "contracts/ft/FT1_Protocol_v1.sha256": "cf31be1f2a80a0aaa8081d10bdb5dbfdbb878882fe6b545645cb4e96e8d92caa",
+  "contracts/ft/FT2_Protocol_v1.json": "77abfd93e696aea89f77281d48166c5a1c24ecb4c9976bd0bf58cef387444688",
+  "contracts/ft/FT2_Protocol_v1.sha256": "14f8438753a9c6915fed2b5e7086a0a893665975fcf1a82d0efa3895c6bfbef2",
+  "contracts/ft/FT3_Protocol_v1.json": "dc23ee9911a80e13dd0017de92697eacd57d91a444dacf3069a2f94cf18ee485",
+  "contracts/ft/FT3_Protocol_v1.sha256": "2e31d6856ed686159f156da502f365d333a916d90e33724e41d0d64a02e0babc",
+  "tools/evaluate_ft3.py": "b329d396ced8513d34adbeb921d525577499159c303b080a47fe2ac39401b2cb"
+}

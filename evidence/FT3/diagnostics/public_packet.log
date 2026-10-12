@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<stdin>", line 23, in <module>
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/full_theory/content.py", line 145, in receive
+    e.disclose(delivery,receiver,source,selectors,p["target"])
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/hle_unified/operations.py", line 141, in disclose
+    return self._execute(("disclose", command_id, actor, source, selectors, source if subject is None else subject))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/hle_unified/shell.py", line 66, in _execute
+    result = dispatch[command[0]](*command[1:])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/hle_unified/crossing_execution.py", line 64, in _disclose
+    return super()._disclose(cid,actor,source,selectors,subject)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/hle_unified/self_execution.py", line 63, in _disclose
+    raise ValueError("only exact scoped public payload may be delivered")
+ValueError: only exact scoped public payload may be delivered

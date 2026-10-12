@@ -1,0 +1,48 @@
+{
+  "rules": [
+    {
+      "archetype": "guard",
+      "intention": "scan",
+      "event": "perceive",
+      "content_delta": {
+        "set_domain": {
+          "its": "signal"
+        }
+      },
+      "state_delta": {
+        "seat": 6
+      }
+    },
+    {
+      "archetype": "guard",
+      "intention": "rest",
+      "event": "stand_down",
+      "content_delta": {
+        "replace_domain": {}
+      },
+      "state_delta": {
+        "seat": 1
+      }
+    },
+    {
+      "archetype": "walker",
+      "intention": "wait",
+      "event": "time_advance",
+      "content_delta": {
+        "set_foreign": {
+          "motion": "step"
+        }
+      }
+    },
+    {
+      "archetype": "world",
+      "intention": "clock",
+      "event": "time_advance",
+      "content_delta": {
+        "set_foreign": {
+          "phase": "dusk"
+        }
+      }
+    }
+  ]
+}

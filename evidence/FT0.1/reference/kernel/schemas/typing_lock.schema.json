@@ -1,0 +1,18 @@
+{
+  "$schema_name": "typing_lock",
+  "optional": {
+    "agreement": "number",
+    "alternatives": "list",
+    "evidence_ref": "str",
+    "rater_ids": "list",
+    "typing_protocol_version": "str"
+  },
+  "required": {
+    "confidence": "number",
+    "method": "str",
+    "primary_tim": "tim",
+    "subject_id": "str",
+    "typing_quality": "quality"
+  },
+  "version": "1"
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "sle",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "eie"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "ili",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "eie"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "sli",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "eii"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "ile",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "eii"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "ile",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "ese"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "sli",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "ese"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "ili",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "esi"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "sle",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "esi"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "lse",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "iee"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "esi",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "iee"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "lsi",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "iei"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "ese",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "iei"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "ese",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "ile"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "lsi",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "ile"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "esi",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "ili"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "lse",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "ili"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "see",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "lie"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "iei",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "lie"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "sei",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "lii"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "iee",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "lii"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "iee",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "lse"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "sei",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "lse"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "iei",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "lsi"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "see",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "lsi"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "lie",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "see"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "eii",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "see"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "lii",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "sei"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "IT",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "I",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "eie",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "sei"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "eie",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "sle"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "lii",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "sle"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 9
+      },
+      {
+        "altitude": 3,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 13
+      }
+    ],
+    "target": {
+      "channel": "Activation",
+      "partner": "eii",
+      "tick": 8,
+      "what": "complementary"
+    },
+    "tim": "sli"
+  },
+  {
+    "kind": "supplier",
+    "observed": [
+      {
+        "altitude": 1,
+        "closed": "I",
+        "closure_class": "complementary",
+        "tick": 4
+      },
+      {
+        "altitude": 2,
+        "closed": "WE",
+        "closure_class": "lateral_E",
+        "tick": 7
+      },
+      {
+        "altitude": 3,
+        "closed": "ITS",
+        "closure_class": "lateral_A",
+        "tick": 73
+      }
+    ],
+    "target": {
+      "channel": "Supervisee",
+      "partner": "lie",
+      "tick": 9,
+      "what": "complementary"
+    },
+    "tim": "sli"
+  }
+]

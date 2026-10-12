@@ -1,0 +1,30 @@
+{
+  "kind": "theory_manifest",
+  "engine_version": "2.0.0",
+  "hashes": {
+    "apps/le_core/src/le_gf2.erl": "f4cadeaea12e9195a163726b07f5c26156334dedea5c494cf5f1f9faf26e7206",
+    "apps/le_oig/src/le_oig.erl": "1a6c738cf1f455178277defce7f2cc40eed842b0f880288f4c351a9e7b1ff58a",
+    "apps/le_oig/src/le_oig_domain.erl": "e8b0f2a13b65874bc4ecccd193c6b1495b0b30bfb80c658b475b14a87d22b416",
+    "apps/le_oig/src/le_oig_foreign.erl": "92c76e2fcddd935ec99a9c25c8dbda1581fa9a6cd6ce71df88dcd50fabdb6a54",
+    "apps/le_oig/src/le_oig_recurrence.erl": "2f11808394ba3efc88bdc3b8a43e920cb2e89adb84b66afdff145c8256398a28",
+    "apps/le_oig/src/le_oig_trace.erl": "bfd7fd6e987b67fb63a240951022f3753cfdee1b97938691e111595f65f8607d",
+    "apps/le_socionics/src/le_dynamical_group.erl": "8eaaf2029f7998f949f518970d0e409dda75ae1c07f3fa574b168239a64299fd",
+    "apps/le_socionics/src/le_ie_geometry.erl": "0fa865f932bfb393a7e5ae7fdf8d4bc6469d1a625aacfc7d83bfe0efaa4b21a7",
+    "apps/le_socionics/src/le_model_g.erl": "676cfa287a8a40ae1f3096af05868063838e8437ebfbd7d23c545da4fbfd0045",
+    "apps/le_socionics/src/le_position_geometry.erl": "283251e47bbddadd503b46f833e99932435bd5e577e85804e78885b700ffdbde",
+    "apps/le_socionics/src/le_reinin.erl": "f5371d142a74098f7dd17d3bb9e2f11b00f375bd0511b284e03202f4064ce648",
+    "apps/le_socionics/src/le_relation_group.erl": "26c3597361dc19b12ac717765511ccc291b29be6ea8cfe9bfe1830271596962b",
+    "apps/le_socionics/src/le_routing.erl": "2dc3933c1178254ae7fa4df72a0df373d904085b03ae2daa62f7d555d6e49aef",
+    "apps/le_socionics/src/le_stacks.erl": "8fbe8ac58dfc2c15ccff9f4c9854d65bb55f387d00b13e1b9e81bd53949e46fb",
+    "apps/le_socionics/src/le_tim_frame.erl": "0a48b3a77818068ee51c6a1b1f47265522e22d37a2baea7d8cb94e55e85fe0a3",
+    "apps/le_socionics/src/le_tim_space.erl": "d18b3b11717f8ca295ea47e4d950e3bf2ee7ac4e47b64c54c6a4b62cb6c60e50",
+    "pyref/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pyref/core.py": "21fd643491acae57b43b2874fdc8a843a8fc6d4fc039707230ab2ed01ede1f11",
+    "pyref/dynamic.py": "2d756abe86dd5baf5c864a646a5c60eae768623ad2c64773a803258edbb045a6",
+    "pyref/empirical.py": "ac00d44b896a834b391bdc80948ea6741fc1da874d3b11b6c8ab6e10e98b576b",
+    "pyref/features.py": "0b26f0cc92b210f9a0f2fe6f2c11e94a19fb784c30b8ed825e5d3c68179542af",
+    "pyref/oig.py": "61eca117e4da8b304abbd130954a0305bcb044a95c7f5ba713124f46069330fc",
+    "pyref/schemas.py": "1726b99013e84ee5740de1621e113ae53f0c83a84318b0e9ada18aa0509e2339",
+    "pyref/verify_all.py": "e8ad459b85c9ac3af80c26876941372b3dbd8546dbd752ca982ddace96ba6432"
+  }
+}

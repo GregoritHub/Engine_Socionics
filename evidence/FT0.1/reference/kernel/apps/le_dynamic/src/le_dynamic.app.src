@@ -1,0 +1,6 @@
+{application, le_dynamic,
+ [{description, "Living Engine v2 - le_dynamic"},
+  {vsn, "2.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}]}.

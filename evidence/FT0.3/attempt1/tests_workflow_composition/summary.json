@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 11.158914987005119,
+  "source_unchanged": true,
+  "rows": [
+    {
+      "test_id": "tests_workflow_composition.test_composition.WorkflowCompositionTests.test_coordinate_mobilize",
+      "status": "passed",
+      "seconds": 1.942320000998734
+    },
+    {
+      "test_id": "tests_workflow_composition.test_composition.WorkflowCompositionTests.test_equal_endpoint_and_unchanged_answer_controls_are_rejected",
+      "status": "passed",
+      "seconds": 1.2357514429968433
+    },
+    {
+      "test_id": "tests_workflow_composition.test_composition.WorkflowCompositionTests.test_institutionalize_educate",
+      "status": "passed",
+      "seconds": 2.72196850200271
+    },
+    {
+      "test_id": "tests_workflow_composition.test_composition.WorkflowCompositionTests.test_organize_integrate_apply",
+      "status": "passed",
+      "seconds": 1.691214624006534
+    },
+    {
+      "test_id": "tests_workflow_composition.test_composition.WorkflowCompositionTests.test_share_commune_identify",
+      "status": "passed",
+      "seconds": 2.342049576000136
+    },
+    {
+      "test_id": "tests_workflow_composition.test_composition.WorkflowCompositionTests.test_theorize_apply_embody",
+      "status": "passed",
+      "seconds": 1.222265789998346
+    }
+  ]
+}

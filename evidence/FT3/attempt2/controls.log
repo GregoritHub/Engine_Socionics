@@ -1,0 +1,115 @@
+test_all_five_active_shell_effects_are_nonvacuous (test_retention.RetentionTests.test_all_five_active_shell_effects_are_nonvacuous) ... ok
+test_capacity_removal_changes_later_guarded_action (test_retention.RetentionTests.test_capacity_removal_changes_later_guarded_action) ... ERROR
+test_duplicate_exposure_and_training_are_rejected (test_retention.RetentionTests.test_duplicate_exposure_and_training_are_rejected) ... ERROR
+test_empty_or_incomplete_detector_is_not_clearance (test_retention.RetentionTests.test_empty_or_incomplete_detector_is_not_clearance) ... ok
+test_independent_audit_rejects_false_clearance_and_history (test_retention.RetentionTests.test_independent_audit_rejects_false_clearance_and_history) ... ERROR
+test_interrupted_and_changing_windows_do_not_close (test_retention.RetentionTests.test_interrupted_and_changing_windows_do_not_close) ... FAIL
+test_mere_visit_and_missing_return_do_not_close (test_retention.RetentionTests.test_mere_visit_and_missing_return_do_not_close) ... ok
+test_missing_recall_and_revocation_preserve_history (test_retention.RetentionTests.test_missing_recall_and_revocation_preserve_history) ... ERROR
+test_novel_target_changed_partner_and_harder_load (test_retention.RetentionTests.test_novel_target_changed_partner_and_harder_load) ... ERROR
+test_partial_order_preserves_incomparability (test_retention.RetentionTests.test_partial_order_preserves_incomparability) ... ok
+test_supported_practice_does_not_award_capacity (test_retention.RetentionTests.test_supported_practice_does_not_award_capacity) ... ok
+test_two_settings_close_and_register_scoped_capacity (test_retention.RetentionTests.test_two_settings_close_and_register_scoped_capacity) ... ERROR
+
+======================================================================
+ERROR: test_capacity_removal_changes_later_guarded_action (test_retention.RetentionTests.test_capacity_removal_changes_later_guarded_action)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 97, in test_capacity_removal_changes_later_guarded_action
+    e,b,l,d,p,uses=trained();initial=e.checkpoint();control=Engine.restore(initial)
+                   ^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 73, in trained
+    certificate=l.certify('guarded',f.ALICE,d,capacity,tuple(uses))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/full_theory/retention.py", line 135, in certify
+    if not window or not window['last']['closed']:raise ValueError('non-vacuous content closure required')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: non-vacuous content closure required
+
+======================================================================
+ERROR: test_duplicate_exposure_and_training_are_rejected (test_retention.RetentionTests.test_duplicate_exposure_and_training_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 133, in test_duplicate_exposure_and_training_are_rejected
+    e,b,l,d,p,uses=trained()
+                   ^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 73, in trained
+    certificate=l.certify('guarded',f.ALICE,d,capacity,tuple(uses))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/full_theory/retention.py", line 135, in certify
+    if not window or not window['last']['closed']:raise ValueError('non-vacuous content closure required')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: non-vacuous content closure required
+
+======================================================================
+ERROR: test_independent_audit_rejects_false_clearance_and_history (test_retention.RetentionTests.test_independent_audit_rejects_false_clearance_and_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 158, in test_independent_audit_rejects_false_clearance_and_history
+    e,b,l,d,p,uses=trained();bad=copy.deepcopy(l.events)
+                   ^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 73, in trained
+    certificate=l.certify('guarded',f.ALICE,d,capacity,tuple(uses))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/full_theory/retention.py", line 135, in certify
+    if not window or not window['last']['closed']:raise ValueError('non-vacuous content closure required')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: non-vacuous content closure required
+
+======================================================================
+ERROR: test_missing_recall_and_revocation_preserve_history (test_retention.RetentionTests.test_missing_recall_and_revocation_preserve_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 150, in test_missing_recall_and_revocation_preserve_history
+    e,b,l,d,p,uses=trained();before=set(l.history[f.ALICE])
+                   ^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 73, in trained
+    certificate=l.certify('guarded',f.ALICE,d,capacity,tuple(uses))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/full_theory/retention.py", line 135, in certify
+    if not window or not window['last']['closed']:raise ValueError('non-vacuous content closure required')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: non-vacuous content closure required
+
+======================================================================
+ERROR: test_novel_target_changed_partner_and_harder_load (test_retention.RetentionTests.test_novel_target_changed_partner_and_harder_load)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 87, in test_novel_target_changed_partner_and_harder_load
+    e,b,l,d,p,uses=trained(setting)
+                   ^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 73, in trained
+    certificate=l.certify('guarded',f.ALICE,d,capacity,tuple(uses))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/full_theory/retention.py", line 135, in certify
+    if not window or not window['last']['closed']:raise ValueError('non-vacuous content closure required')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: non-vacuous content closure required
+
+======================================================================
+ERROR: test_two_settings_close_and_register_scoped_capacity (test_retention.RetentionTests.test_two_settings_close_and_register_scoped_capacity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 80, in test_two_settings_close_and_register_scoped_capacity
+    e,b,l,d,p,uses=trained(setting)
+                   ^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 73, in trained
+    certificate=l.certify('guarded',f.ALICE,d,capacity,tuple(uses))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/full_theory/retention.py", line 135, in certify
+    if not window or not window['last']['closed']:raise ValueError('non-vacuous content closure required')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: non-vacuous content closure required
+
+======================================================================
+FAIL: test_interrupted_and_changing_windows_do_not_close (test_retention.RetentionTests.test_interrupted_and_changing_windows_do_not_close)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/83162aa1d583/Engine_Socionics/tests_ft3/test_retention.py", line 108, in test_interrupted_and_changing_windows_do_not_close
+    self.assertEqual(exposure(e,b,l,d,c,'after')['hold'],1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 12 tests in 10.683s
+
+FAILED (failures=1, errors=6)

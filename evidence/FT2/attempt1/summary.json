@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "required_cells": 64,
+  "executed_cells": 64,
+  "passed_cells": 64,
+  "control_methods": 10,
+  "control_failures": 0,
+  "control_errors": 0,
+  "source_unchanged": true
+}

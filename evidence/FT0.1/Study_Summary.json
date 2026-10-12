@@ -1,0 +1,115 @@
+{
+  "created_utc": "2026-10-12T03:29:32.411447+00:00",
+  "historical_source_files_unchanged": 188,
+  "sealed_pyref_files_verified": 11,
+  "historical_suites": [
+    {
+      "script": "verify_v5",
+      "exit_code": 0,
+      "seconds": 17.574,
+      "pass_lines": 106,
+      "fail_lines": [],
+      "tail": [
+        "PASS  commit.reach_of_written_domains_contains_retaining_positions",
+        "================================================================",
+        "106/106 passed"
+      ]
+    },
+    {
+      "script": "verify_v3",
+      "exit_code": 0,
+      "seconds": 0.131,
+      "pass_lines": 80,
+      "fail_lines": [],
+      "tail": [
+        "PASS  e2e.tower_v1_rules_are_inert_against_tower_v2",
+        "================================================================",
+        "80/80 passed"
+      ]
+    },
+    {
+      "script": "verify_canon",
+      "exit_code": 0,
+      "seconds": 112.322,
+      "pass_lines": 55,
+      "fail_lines": [],
+      "tail": [
+        "PASS  floor.not_a_constant",
+        "================================================================",
+        "all passed"
+      ]
+    },
+    {
+      "script": "verify_v5_2",
+      "exit_code": 0,
+      "seconds": 110.234,
+      "pass_lines": 34,
+      "fail_lines": [],
+      "tail": [
+        "PASS  spectrum.cognitive_style_has_no_emission_signature",
+        "================================================================",
+        "all passed"
+      ]
+    },
+    {
+      "script": "verify_a37",
+      "exit_code": 0,
+      "seconds": 15.766,
+      "pass_lines": 25,
+      "fail_lines": [],
+      "tail": [
+        "PASS  a37.type_invariance_and_contrary_symmetry_survive_in_family",
+        "================================================================",
+        "25/25 passed"
+      ]
+    }
+  ],
+  "current_targeted_tests": 16,
+  "dual_solo_witnesses": 32,
+  "ordered_pair_runs": 240,
+  "initial_document_timing_mismatches": 32,
+  "both_seed_explanations": 32,
+  "firing_gate_factorial": [
+    {
+      "policy": "every_tick",
+      "gate": false,
+      "first_complement_ticks": [
+        4
+      ],
+      "last16_all_valued": 0,
+      "types": 16
+    },
+    {
+      "policy": "every_tick",
+      "gate": true,
+      "first_complement_ticks": [
+        4
+      ],
+      "last16_all_valued": 0,
+      "types": 16
+    },
+    {
+      "policy": "relay",
+      "gate": false,
+      "first_complement_ticks": [
+        5
+      ],
+      "last16_all_valued": 16,
+      "types": 16
+    },
+    {
+      "policy": "relay",
+      "gate": true,
+      "first_complement_ticks": [
+        5
+      ],
+      "last16_all_valued": 16,
+      "types": 16
+    }
+  ],
+  "metadata_erasure_behavior_identical": true,
+  "ne_emissions_intact": 78,
+  "ne_emissions_chord_ablated": 3,
+  "current_engine_unchanged": true,
+  "release_or_theory_election": false
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "dataset_manifest",
+  "synthetic": true,
+  "hashes": {
+    "data/pilot_001/REPORT.md": "feac4ee97180066edf9b275aa12d2641d548f47d0a872cccbe757ded591483af",
+    "data/pilot_001/blind_dataset.jsonl": "64a9893e1bd5b7ab860a09224849c12497ab239fc8658260e6a56962516d3eb2",
+    "data/pilot_001/ledger.jsonl": "9e872b78a494be39548b515606e7c41da447eaeea490fcfac360076c7a516570",
+    "data/pilot_001/model_comparison.json": "fab41d0e1dc3757aee9a7a9d607e66a164353eb02cc8e71ca38778487621e22b",
+    "data/pilot_001/study.json": "0a6c6df76ffbc9cc7a80df873f94804ff70c44bcce140981526cfad351cc2353",
+    "data/pilot_001/theory_enriched_dataset.jsonl": "2e2877458ed862f645c8f7232b02dcdb527201d379c5a53ef7e1dcddbfc637a9"
+  }
+}

@@ -1,0 +1,98 @@
+{
+ "version": "1",
+ "items": [
+  {
+   "id": "model_g_roles_g3_g5_g8",
+   "kind": "role_names",
+   "detail": "UMA sec 19 sources roles only for G1,G2,G4,G6,G7",
+   "code_marker": "le_model_g:role_of_g/1 -> {unresolved_source_extraction,_}",
+   "uma_checked": "UMA received and searched in full: only Leader(G1), Creative(G2), Launching(G4), Manipulative(G6, s.24), Braking(G7, s.24) are named. G3/G5/G8 never named. Item confirmed open against the primary source."
+  },
+  {
+   "id": "model_g_block_assignment",
+   "kind": "block_membership",
+   "detail": "blocks named in UMA sec 13; position membership unstated",
+   "code_marker": "le_model_g:block_assignment/0",
+   "uma_checked": "UMA s.13 received: names the four blocks, gives the G->A reindexing G1..G8 = A1,A8,A3,A6,A2,A5,A4,A7, but states no position-to-block membership. Confirmed open."
+  },
+  {
+   "id": "relation_names_unanchored_7",
+   "kind": "relation_names",
+   "detail": "7 of 16 relation-group elements have no source-anchored name",
+   "code_marker": "le_relation_group:name_of/1 -> {unresolved_relation_name,Key}",
+   "status": "resolved",
+   "resolved_by": "Generative Semantics of Information Metabolism v1.1, Appendix D (sixteen intertype permutations)",
+   "resolution": {
+    "mirror": "(2,1,4,3,6,5,8,7)",
+    "conflict": "(4,3,2,1,8,7,6,5)",
+    "quasi_identity": "(8,7,6,5,4,3,2,1)",
+    "kindred": "(1,4,3,2,5,8,7,6)",
+    "semi_duality": "(5,8,7,6,1,4,3,2)",
+    "business": "(3,2,1,4,7,6,5,8)",
+    "mirage": "(7,6,5,8,3,2,1,4)"
+   },
+   "verification": "all 16 Appendix D permutations induce a constant permutation across all 16 TIMs and biject with relation_group_elements(); the 9 already-anchored kernel names agree with the document on all 9",
+   "caution": "Appendix D's Ego-transfer column is swapped within each directional pair; use the permutation tuples. All 7 names resolved here are self-inverse, so the swap does not touch them."
+  },
+  {
+   "id": "verbal_pole_polarity",
+   "kind": "naming_polarity",
+   "detail": "partitions asserted; which pole carries which word is not",
+   "code_marker": "le_reinin, le_ie_geometry:semantic_dichotomies/0",
+   "status": "partially_resolved",
+   "resolved_count": 6,
+   "total": 15,
+   "resolution": {
+    "extraverted/introverted": {
+     "pole": "character_1 = extraverted",
+     "source": "Atlas type names, all sixteen spelled out"
+    },
+    "intuitive/sensing": {
+     "pole": "character_1 = intuitive",
+     "source": "Atlas type names"
+    },
+    "logical/ethical": {
+     "pole": "character_1 = logical",
+     "source": "Atlas type names"
+    },
+    "static/dynamic": {
+     "pole": "character_0 = static",
+     "source": "Generative Semantics s.6 + Part IX"
+    },
+    "democratic/aristocratic": {
+     "pole": "character_0 = democratic",
+     "source": "A Finite Object s.3.1 + s.5; independently confirmed by UMA Appendix A (orientation bit = 1 on Democratic)"
+    },
+    "irrational/rational": {
+     "pole": "character_1 = irrational",
+     "source": "UMA s.5 P = 1 XOR l_q, with element rationality from Shell Geometry s.5"
+    }
+   },
+   "still_open": [
+    "carefree/farsighted",
+    "yielding/obstinate",
+    "tactical/strategic",
+    "constructivist/emotivist",
+    "positivist/negativist",
+    "judicious/decisive",
+    "subjectivist/objectivist",
+    "process/result",
+    "asking/declaring"
+   ],
+   "note": "9 of 15 still open; all remaining are non-Jungian Reinin traits"
+  },
+  {
+   "id": "oig_exact_meet_witness",
+   "kind": "theorem_status",
+   "detail": "OIG 7.3 canonical witness not exhibited (OIG D.7)",
+   "code_marker": "verify: oig.exact_meet_status_preserved"
+  },
+  {
+   "id": "production_timing_source_silent",
+   "kind": "source_silence",
+   "detail": "no governing document binds production to a position in time (UMA s.10 caution, s.17, s.20, s.28; Shell Geometry s.2 gives one polarity bit per movement); FIRING_POLICY, C2/C3 and the boost binaries are completions here",
+   "code_marker": "metabolism.tick.FIRING_POLICY; bin/a37_rules.RULES; verify_a37"
+  }
+ ],
+ "open_count": 5
+}

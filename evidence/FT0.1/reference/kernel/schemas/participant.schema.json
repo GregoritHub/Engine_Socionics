@@ -1,0 +1,10 @@
+{
+  "$schema_name": "participant",
+  "optional": {
+    "registered_at": "str"
+  },
+  "required": {
+    "subject_id": "str"
+  },
+  "version": "1"
+}

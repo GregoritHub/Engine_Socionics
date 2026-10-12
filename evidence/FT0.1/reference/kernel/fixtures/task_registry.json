@@ -1,0 +1,14 @@
+{
+  "task_registry_version": "1",
+  "note": "One task family per designed target IE (SPEC section 40). Operational descriptions define what the task requires; the mapping task->IE is itself a hypothesis (validation_status pilot_unvalidated). No claim that a task purely engages one element.",
+  "families": [
+    {"task_family_id": "tf_ne", "semantic_version": "1.0.0", "designed_target_ie": "ne", "operation_description": "generate alternative uses / latent possibilities for a presented object under time pressure", "scoring_rule": "count of category-distinct valid uses in 60s; latency to first response", "contrast_ie": "si", "validation_status": "pilot_unvalidated"},
+    {"task_family_id": "tf_ni", "semantic_version": "1.0.0", "designed_target_ie": "ni", "operation_description": "extrapolate the continuation of an evolving sequence of events presented as a vignette", "scoring_rule": "plausibility-rubric score by blind raters; latency", "contrast_ie": "se", "validation_status": "pilot_unvalidated"},
+    {"task_family_id": "tf_se", "semantic_version": "1.0.0", "designed_target_ie": "se", "operation_description": "rapid detection and enforcement of a concrete constraint in a dynamic visual scene", "scoring_rule": "accuracy and reaction time", "contrast_ie": "ne", "validation_status": "pilot_unvalidated"},
+    {"task_family_id": "tf_si", "semantic_version": "1.0.0", "designed_target_ie": "si", "operation_description": "detect fine-grained state changes in bodily/comfort-relevant stimulus descriptions", "scoring_rule": "change-detection accuracy; latency", "contrast_ie": "ni", "validation_status": "pilot_unvalidated"},
+    {"task_family_id": "tf_ti", "semantic_version": "1.0.0", "designed_target_ie": "ti", "operation_description": "classify statements as consistent/inconsistent with a small explicit rule system", "scoring_rule": "accuracy and median correct-classification latency", "contrast_ie": "fi", "validation_status": "pilot_unvalidated"},
+    {"task_family_id": "tf_te", "semantic_version": "1.0.0", "designed_target_ie": "te", "operation_description": "choose the more efficient of two procedures given explicit resource data", "scoring_rule": "accuracy against computed optimum; latency", "contrast_ie": "fe", "validation_status": "pilot_unvalidated"},
+    {"task_family_id": "tf_fi", "semantic_version": "1.0.0", "designed_target_ie": "fi", "operation_description": "judge relational alignment (closeness/distance) between described persons from sparse cues", "scoring_rule": "agreement with normed ratings; latency", "contrast_ie": "ti", "validation_status": "pilot_unvalidated"},
+    {"task_family_id": "tf_fe", "semantic_version": "1.0.0", "designed_target_ie": "fe", "operation_description": "identify the dominant expressed emotion of a group vignette and produce a mood-congruent response", "scoring_rule": "blind-rater congruence score; latency", "contrast_ie": "te", "validation_status": "pilot_unvalidated"}
+  ]
+}

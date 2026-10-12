@@ -1,0 +1,69 @@
+# Theory derivation report
+
+Machine-generated from `python3 pyref/verify_all.py` on this build. Every line is an exhaustively generated property of the locked stacks + coordinates (SPEC sections 5-16, 66); nothing is asserted from a memorized table. 63/63 theory checks passing.
+
+```
+PASS  model_a.16_tims
+PASS  model_a.8_unique_elements_per_stack
+PASS  model_a.generated_stacks_equal_definitive_table
+PASS  model_a.position_dimensions_43211234
+PASS  model_a.derived_dimension_formula_1p2SpB
+PASS  model_a.strong_set
+PASS  model_a.weak_set
+PASS  model_a.contact_partition
+PASS  pos_space.8_vertices
+PASS  pos_space.12_edges
+PASS  pos_space.degree_3
+PASS  pos_space.3_primitive_directions
+PASS  ie_space.8_vertices
+PASS  ie_space.7_nonzero_linear_characters
+PASS  ie_space.all_characters_balanced_4_4
+PASS  frames.all_16_affine
+PASS  frames.all_16_invertible
+PASS  frames.stack_reconstruction_exact
+PASS  frames.exactly_16_lawful_frames
+PASS  frames.uma_frame_theorem_shape
+PASS  frames.8_origins_2_orientations
+PASS  frames.orientation_matches_democratic_aristocratic_partition
+PASS  reinin.16_distinct_jungian_coords
+PASS  reinin.15_nonzero_characters
+PASS  reinin.each_character_balanced_8_8
+PASS  reinin.locked_name_table_covers_all_15
+PASS  reinin.subgroup_trait_rule_7_3_1_0
+PASS  reinin.35_two_dim_subspaces
+PASS  routing.8_nodes_each_tim
+PASS  routing.12_edges_each_tim
+PASS  routing.degree_3_each_node
+PASS  routing.tim_cube_not_generic_ie_cube
+PASS  routing.uma_iee_ti_neighbors_se_fi_fe
+PASS  relations.16_transformations
+PASS  relations.closure
+PASS  relations.identity_present
+PASS  relations.inverses_present
+PASS  relations.simply_transitive
+PASS  relations.unique_transformation_per_ordered_pair
+PASS  relations.8_translations
+PASS  relations.8_share_involutive_K
+PASS  relations.duality_coherent_involution
+PASS  relations.contrary_single_element_locked_pairs
+PASS  relations.benefit_single_element_order_4
+PASS  relations.supervision_single_element_order_4
+PASS  relations.benefit_ring_of_four
+PASS  dyn.order_64
+PASS  dyn.exponent_4
+PASS  dyn.center_two_elements
+PASS  dyn.center_is_identity_and_super_ego
+PASS  dyn.estafette_order_4
+PASS  dyn.estafette_squared_is_activation
+PASS  dyn.estafette_two_parallel_four_cycles_valued_unvalued
+PASS  model_g.permutation_is_bijection
+PASS  model_g.uma_iee_table_reproduced
+PASS  model_g.positional_variables_affine_and_lambda_is_strength
+PASS  model_g.chords_a6_a1_a8
+PASS  model_g.iee_spine_te_ne_fe
+PASS  model_g.iee_fe_ti_primitive_edge
+PASS  model_g.hybrid_edges_have_provenance
+PASS  model_g.g3_g5_g8_roles_marked_unresolved
+PASS  model_g.block_assignment_marked_unresolved
+PASS  model_g.no_numeric_energy_values
+```

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "historical_runs": 368,
+  "checkpoint_splits": 138,
+  "type_seat_cells": 128,
+  "core_pairs": 64,
+  "gate_states": 64,
+  "checks": 701,
+  "failed": 0,
+  "reference_version": "historical-521-v1",
+  "source_unchanged": true
+}

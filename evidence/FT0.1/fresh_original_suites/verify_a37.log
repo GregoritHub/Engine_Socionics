@@ -1,0 +1,27 @@
+PASS  kernel.manifest_intact
+PASS  a37.gas_positions_are_1_2_5_8
+PASS  a37.content_firing_set_is_gas_minus_suggestive
+PASS  a37.sourced_chords_are_6to1_and_1to8
+PASS  a37.rule_space_is_8_to_the_8
+PASS  a37.C1_C2_C3_leave_six_rules   6
+PASS  a37.C1_to_C4a_leave_exactly_four   4
+PASS  a37.the_four_differ_only_in_8_at_seats_2_and_6
+PASS  a37.boost_at_2_as_a_reading_leaves_two   2
+PASS  a37.engine_FIRES_AT_is_the_boost2_noboost6_survivor
+PASS  a37.engine_note_for_A8_is_receives_a_boost_not_fires_too
+PASS  a37.every_tick_violates_C2
+PASS  a37.harness_every_tick_matches_native
+PASS  a37.harness_relay_matches_native
+PASS  a37.supervisor_early_lateral_first_only_under_every_tick
+PASS  a37.supervisor_complement_first_iff_demonstrative_fires_on_the_valued_lap   valued=['relay', 'relay_boost6', 'relay_noboost2_boost6', 'turn_only', 'block_only', 'turn_block'] own_seat=['relay_noboost2']
+PASS  a37.kindred_productive_iff_demonstrative_fires_on_the_valued_lap
+PASS  a37.supervisor_discriminator_is_family_wide_not_relay_specific
+PASS  a37.one_tick_delay_is_reading_C3
+PASS  a37.identity_semi_dual_tick3_closure_only_under_every_tick
+PASS  a37.boost_reading_is_not_invisible   differs in 6 rows
+PASS  a37.sequential_reading_keeps_duality
+PASS  a37.sequential_reading_loses_kindred_and_the_supervisors_closure
+PASS  a37.kindred_equals_duality_under_relay_rests_on_boost_at_2
+PASS  a37.type_invariance_and_contrary_symmetry_survive_in_family
+================================================================
+25/25 passed

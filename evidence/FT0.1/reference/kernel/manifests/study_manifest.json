@@ -1,0 +1,10 @@
+{
+  "kind": "study_manifest",
+  "hashes": {
+    "fixtures/make_synthetic_observations.py": "b4bfecb688a15fcb1ec01ae6fbba0833d84dfcd926c10ce5e4e88025c6ddc9fd",
+    "fixtures/participants.csv": "33701b74d470fc6ee2047ff40b57202691fc9be0f2492684b40ea91ac5234083",
+    "fixtures/synthetic_observations.jsonl": "16665d960ee96cc08bbeb5623f6fcea0896b0f6c4e80a7a11f4f795a5c8f42da",
+    "fixtures/task_registry.json": "a14beb3b7997e82d469aa0629cfec2ab45a4f1c90deb2005313695205c0f53a9",
+    "studies/pilot_001.json": "e72dd21ea02e2e35bf33a69bdcea306a96c486aaa51d9f51992f4ec1719a16e5"
+  }
+}

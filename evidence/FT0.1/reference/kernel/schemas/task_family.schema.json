@@ -1,0 +1,17 @@
+{
+  "$schema_name": "task_family",
+  "optional": {
+    "contrast_ie": "ie",
+    "difficulty_parameters": "dict",
+    "pilot_statistics": "dict"
+  },
+  "required": {
+    "designed_target_ie": "ie",
+    "operation_description": "str",
+    "scoring_rule": "str",
+    "semantic_version": "str",
+    "task_family_id": "str",
+    "validation_status": "str"
+  },
+  "version": "1"
+}

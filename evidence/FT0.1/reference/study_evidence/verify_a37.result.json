@@ -1,0 +1,12 @@
+{
+  "script": "verify_a37",
+  "exit_code": 0,
+  "seconds": 15.766,
+  "pass_lines": 25,
+  "fail_lines": [],
+  "tail": [
+    "PASS  a37.type_invariance_and_contrary_symmetry_survive_in_family",
+    "================================================================",
+    "25/25 passed"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "full_theory/__init__.py": "dcd9ba23a829fd009b017d400a7497bf11f2f6e86dce0dc2c9f5a399e123b7c5",
+  "full_theory/content.py": "5e20d63bb9947d66ab022fcf8f7004a26474efcb232c11e54fe6fb2f1f97a16b",
+  "full_theory/content_audit.py": "ba82ae21fda0115bf8fdfd5d75a147e9d19f90878322d5bd48d7686146cd7983",
+  "full_theory/historical.py": "43302ecb7a07893515d5514d4de1150e7aca87f62773c49c4dafaeb7e8252e53",
+  "tests_ft2/test_content.py": "8e7f182dc6b5740e01ebe5a588534783f6f8b209789e5c207c0d4b38664e955a",
+  "contracts/ft/FT0_Baseline_Protocol_v1.json": "ccbce3867cc3c6ba679f4962d1da4b9412353396feda82041951a8e1f9fafc62",
+  "contracts/ft/FT0_Baseline_Protocol_v1.sha256": "c673a26913d206329b1980c05ba42a67e9a0ab9b020db002602fc8f80a4decd5",
+  "contracts/ft/FT1_Protocol_v1.json": "3036d08f3298ca2a7af051789aa2d8c7938c2f191485b19a3497398aacdd6b3b",
+  "contracts/ft/FT1_Protocol_v1.sha256": "cf31be1f2a80a0aaa8081d10bdb5dbfdbb878882fe6b545645cb4e96e8d92caa",
+  "contracts/ft/FT2_Protocol_v1.json": "77abfd93e696aea89f77281d48166c5a1c24ecb4c9976bd0bf58cef387444688",
+  "contracts/ft/FT2_Protocol_v1.sha256": "14f8438753a9c6915fed2b5e7086a0a893665975fcf1a82d0efa3895c6bfbef2",
+  "tools/evaluate_ft2.py": "600df914d9ad73ea55d860dc75c179c83942abec9f93d5e925418679b17f9bce"
+}

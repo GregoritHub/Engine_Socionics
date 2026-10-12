@@ -1,0 +1,19 @@
+{
+  "$schema_name": "study",
+  "optional": {
+    "notes": "str",
+    "predicted_ordering": "list",
+    "primary_hypothesis": "str",
+    "protocol_version": "str",
+    "task_registry_version": "str",
+    "trials_per_condition": "int"
+  },
+  "required": {
+    "condition_definitions": "dict",
+    "conditions": "list",
+    "mode": "study_mode",
+    "randomization_seed": "int",
+    "study_id": "str"
+  },
+  "version": "1"
+}

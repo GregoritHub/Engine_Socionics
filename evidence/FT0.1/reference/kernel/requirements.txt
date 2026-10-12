@@ -1,0 +1,9 @@
+# The kernel and every verification suite are PURE STANDARD LIBRARY.
+#     python3 verify_v3.py
+#     python3 verify_v2.py
+#     python3 bin/le.py verify all
+# all run on a bare Python 3.8+ with nothing installed.
+#
+# NumPy is needed only by analysis/ — the model-fitting, diagnostics and
+# power-simulation scripts, i.e. `le analyze` and `le report`.
+numpy>=1.21

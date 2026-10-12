@@ -1,0 +1,13 @@
+{
+  "$schema_name": "manifest",
+  "optional": {
+    "created_at": "str",
+    "engine_version": "str",
+    "git_commit": "str"
+  },
+  "required": {
+    "hashes": "dict",
+    "kind": "str"
+  },
+  "version": "1"
+}

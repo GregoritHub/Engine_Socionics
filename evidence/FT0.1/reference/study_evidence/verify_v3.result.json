@@ -1,0 +1,12 @@
+{
+  "script": "verify_v3",
+  "exit_code": 0,
+  "seconds": 0.131,
+  "pass_lines": 80,
+  "fail_lines": [],
+  "tail": [
+    "PASS  e2e.tower_v1_rules_are_inert_against_tower_v2",
+    "================================================================",
+    "80/80 passed"
+  ]
+}

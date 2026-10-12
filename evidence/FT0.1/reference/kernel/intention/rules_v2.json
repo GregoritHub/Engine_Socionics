@@ -1,0 +1,61 @@
+{
+  "version": "rules_v2",
+  "note": "Superset of configs/rules.json. Optional per-rule gates read by the intention layer only (min_center, min_bloom, requires_unsealed, grounding); the kernel ignores unknown rule fields. Tower-mutating deltas are NOT stored here: they are computed by holon_tower.tree and applied via materialize_rule() so state still flows through transition().",
+  "rules": [
+    {
+      "archetype": "guard",
+      "intention": "scan",
+      "event": "perceive",
+      "content_delta": { "set_domain": { "its": "signal" } },
+      "state_delta": { "seat": 6 }
+    },
+    {
+      "archetype": "guard",
+      "intention": "rest",
+      "event": "stand_down",
+      "content_delta": { "replace_domain": {} },
+      "state_delta": { "seat": 1 }
+    },
+    {
+      "archetype": "walker",
+      "intention": "wait",
+      "event": "time_advance",
+      "content_delta": { "set_foreign": { "motion": "step" } }
+    },
+    {
+      "archetype": "world",
+      "intention": "clock",
+      "event": "time_advance",
+      "content_delta": { "set_foreign": { "phase": "dusk" } }
+    },
+    {
+      "archetype": "scholar",
+      "intention": "settle_obligation",
+      "event": "due_date",
+      "grounding": ["obligation", "liquidity", "penalty", "due_date"],
+      "content_delta": { "set_domain": { "it": "payment" } }
+    },
+    {
+      "archetype": "scholar",
+      "intention": "study",
+      "event": "quiet_hour",
+      "min_bloom": "Understand",
+      "content_delta": { "set_domain": { "i": "focus" } }
+    },
+    {
+      "archetype": "scholar",
+      "intention": "teach",
+      "event": "audience_gathers",
+      "min_center": "L5",
+      "min_bloom": "Apply",
+      "requires_unsealed": true,
+      "content_delta": { "set_domain": { "we": "lesson" } }
+    },
+    {
+      "archetype": "scholar",
+      "intention": "idle",
+      "event": "time_advance",
+      "content_delta": { "set_foreign": { "motion": "pace" } }
+    }
+  ]
+}
