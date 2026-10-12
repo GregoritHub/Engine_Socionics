@@ -1,10 +1,10 @@
 {
   "schema": "full-theory-run-v1",
   "status": "running",
-  "run_id": "ft-publish-20261012T062557866Z",
-  "lease_expires_at": "2026-10-12T14:10:37.041Z",
+  "run_id": "ft-reconcile-20261012T145551018Z",
+  "lease_expires_at": "2026-10-12T15:25:51.019Z",
   "reference_head": "fdede6f16721f06422d0798a79d84170969b83f8",
-  "expected_head": "21087df6579658ec01dece66f7ddaa4d3e9a5c5a",
+  "expected_head": "f9d21f2a85fd1d5275e7dfbefe3d24f294215209",
   "completed_batches": [
     "FT0.1",
     "FT0.2",
@@ -22,7 +22,7 @@
   "current_batch": "FT4.1",
   "next_batch": "FT4.1a demand formation protocol",
   "remote_publication": "Direct full-checkpoint import in progress: 33/104 text batches saved; binary transfer and exact tree verification pending.",
-  "lease_scope": "exclusive FT continuation after expired lease; publishing verified surviving repairs",
+  "lease_scope": "Reconcile five previously staged accepted files, verify publication gap, save stop checkpoint. No rejected payload retries.",
   "source_repository": "GregoritHub/Socionics_Engine",
   "destination_repository": "GregoritHub/Engine_Socionics",
   "blocker": null,
