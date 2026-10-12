@@ -1,10 +1,10 @@
 {
   "schema": "full-theory-run-v1",
   "status": "running",
-  "run_id": "ft-repair-20261012T045826Z-9a51c3d9",
-  "lease_expires_at": "2026-10-12T05:28:26.495257+00:00",
+  "run_id": "ft-resume-20261012T055220",
+  "lease_expires_at": "2026-10-12T06:22:20.906Z",
   "reference_head": "fdede6f16721f06422d0798a79d84170969b83f8",
-  "expected_head": "c8bef62d623b55054594d1328dfd649c52811641",
+  "expected_head": "79e263be7a4ad3b8e015cdd12fffd17d5e88fd6b",
   "completed_batches": [
     "FT0.1",
     "FT0.2",
@@ -13,24 +13,26 @@
     "FT1.2",
     "FT1.3",
     "FT2.1",
-    "FT2.2"
+    "FT2.2",
+    "FT2.3",
+    "FT3.1",
+    "FT3.2",
+    "FT3.3"
   ],
-  "current_batch": "FT2.3b",
-  "next_batch": "FT3 semantic-scope repair",
-  "remote_publication": "authorized; Git HTTPS lacks credentials; connected GitHub API publication in progress",
-  "lease_scope": "exclusive FT repair worker; remote bootstrap lease then source publication",
+  "current_batch": "FT4.1",
+  "next_batch": "FT4.1a demand formation protocol",
+  "remote_publication": "recovering full saved checkpoint d193ff3; publication not yet complete",
+  "lease_scope": "exclusive FT continuation after expired lease; publishing verified surviving repairs",
   "source_repository": "GregoritHub/Socionics_Engine",
   "destination_repository": "GregoritHub/Engine_Socionics",
   "blocker": null,
-  "reopened_batches": [
-    "FT2.3"
-  ],
+  "reopened_batches": [],
   "required_author_actions": [],
   "active_worker": true,
   "author_restart": {
     "date": "2026-10-12",
     "user_words": "you have permission",
     "approved_proposal": "one bounded adapter repair pass, resumed FT work, and publication to public GregoritHub/Engine_Socionics"
-  }
+  },
+  "recovered_local_commit": "d193ff3"
 }
-
