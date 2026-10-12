@@ -1,0 +1,20 @@
+{
+  "schema": "ft3-repair-v1",
+  "prior_failure": "FT3 attempt2 held; explicit user restart on 2026-10-12",
+  "modules": [
+    "full_theory/retention.py",
+    "full_theory/retention_audit.py",
+    "tools/evaluate_ft3.py"
+  ],
+  "test_directory": "tests_ft3",
+  "scope": "Use native content_target plus typed result Account/proposition consistency for closure consumer and practice consumer matching. Preserve physical target. Independent auditor reconstructs raw fields without importing runtime scope helper. No inherited changes or weakened closure/capability predicate.",
+  "methods": 13,
+  "existing_methods": 12,
+  "new_method": "test_nonphysical_scope_and_wrong_target_control",
+  "positive_settings": [
+    "canonical",
+    "workflow"
+  ],
+  "negative": "A paid semantic consumer of target A cannot count as use at target B despite identical retained operands and a clear paid Shell encounter at B; auditor verifies both positive and negative exposure.",
+  "gate": "All 13 methods and both independently audited positive witnesses pass with source unchanged. Preserve attempt1/2. No universal Shell correction or theoretical C11 claim."
+}

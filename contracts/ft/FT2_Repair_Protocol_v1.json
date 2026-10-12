@@ -1,0 +1,31 @@
+{
+  "schema": "ft2-repair-v1",
+  "authorization": "2026-10-12 user: you have permission; follows explicit bounded repair and public publication proposal",
+  "prior_attempts": [
+    "evidence/FT2/attempt1",
+    "evidence/FT3/attempt1",
+    "evidence/FT3/attempt2"
+  ],
+  "modules": [
+    "full_theory/content.py",
+    "full_theory/content_audit.py",
+    "tools/evaluate_ft2.py"
+  ],
+  "test_directory": "tests_ft2",
+  "scope": "Repair exact-public-message disclosure and derive semantic scope from native content_target (legacy self-content target only when content_target absent); cross-check typed retained Account/proposition, never substitute demanded target. No inherited source edits.",
+  "panel": {
+    "native_cells": 64,
+    "settings": [
+      "canonical",
+      "workflow"
+    ],
+    "existing_methods": 10,
+    "added_methods": 2,
+    "total_methods": 12,
+    "added_controls": [
+      "two-party public uptake, unread then partial then completed, wrong recipient, duplicate",
+      "nonphysical semantic target distinct from physical target, tampered scope rejected"
+    ]
+  },
+  "gate": "All 64 cells and exact 12 method identities pass with unchanged source; raw independent content audit; preserve every failure. FT3 remains separate unaccepted until its next frozen run."
+}
