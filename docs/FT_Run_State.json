@@ -1,10 +1,10 @@
 {
   "schema": "full-theory-run-v1",
-  "status": "running",
+  "status": "blocked",
   "run_id": "ft-reconcile-20261012T145551018Z",
-  "lease_expires_at": "2026-10-12T15:25:51.019Z",
+  "lease_expires_at": null,
   "reference_head": "fdede6f16721f06422d0798a79d84170969b83f8",
-  "expected_head": "f9d21f2a85fd1d5275e7dfbefe3d24f294215209",
+  "expected_head": "56512424f0f5c7dc63c7cdf8b6a93299dd37d1d6",
   "completed_batches": [
     "FT0.1",
     "FT0.2",
@@ -21,18 +21,25 @@
   ],
   "current_batch": "FT4.1",
   "next_batch": "FT4.1a demand formation protocol",
-  "remote_publication": "Direct full-checkpoint import in progress: 33/104 text batches saved; binary transfer and exact tree verification pending.",
+  "remote_publication": "37/104 text batches saved, including five byte-verified previously staged files. Binary transfer and complete-checkpoint verification remain pending.",
   "lease_scope": "Reconcile five previously staged accepted files, verify publication gap, save stop checkpoint. No rejected payload retries.",
   "source_repository": "GregoritHub/Socionics_Engine",
   "destination_repository": "GregoritHub/Engine_Socionics",
-  "blocker": null,
+  "blocker": "Unresolved platform review denial of three required C7 manifest uploads prevents complete checkpoint publication. Denied actions were not retried or bypassed. FT4.1 has not started; stop under the plan source/access blocker rule.",
   "reopened_batches": [],
   "required_author_actions": [],
-  "active_worker": true,
+  "active_worker": false,
   "author_restart": {
     "date": "2026-10-12",
     "user_words": "I approve",
     "approved_proposal": "Publish complete tracked checkpoint including required engine source, theory documents, tests and evidence to public Engine_Socionics; then resume authorized plan."
   },
-  "recovered_local_commit": "d193ff3"
+  "recovered_local_commit": "d193ff3",
+  "blocked_paths": [
+    "C7_Final_Source_Freeze_v5.json",
+    "C7_Progress_Ledger_v1.json",
+    "C7_Second_Setting_Delivered_Source_Manifest_v1.json"
+  ],
+  "resume_condition": "Resolve platform publication restriction through an allowed process, finish and verify full tracked checkpoint import, then prospectively register FT4.1a. Standing user approval already covers this scope.",
+  "latest_record": "docs/ft/FT_Publication_Reconciliation_20261012.md"
 }

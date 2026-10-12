@@ -50,3 +50,7 @@ FT3 is unaccepted: 12 methods, 5 passed, 1 failure, 6 errors after an earlier co
 FT2.3b authorized repair passed: 64/64 cells, 12/12 controls, source unchanged. General public-packet uptake restored. FT3 semantic-scope repair prospectively registered; prior failures preserved.
 
 FT3 authorized repair passed: 13/13 methods and two independently audited saved closure/capacity witnesses. Next FT4.1 autonomous demand formation. Earlier holds and attempts remain historical records, superseded only by explicit restart and passing evidence.
+
+## Publication reconciliation stop — 2026-10-12
+
+FT4.1 remains pending. Five previously staged, byte-verified files were recovered into the public checkpoint, advancing text import from 33/104 to 37/104. The three repair-specific rechecks passed again. Full-tree publication remains incomplete and blocked by existing platform denials of three required C7 manifests; those actions were not retried. The lease is released and continuation is to be paused under the plan's source/access stop rule. See `docs/ft/FT_Publication_Reconciliation_20261012.md` and `docs/ft/FT_Publication_Progress.json`. No new engine batch is accepted.

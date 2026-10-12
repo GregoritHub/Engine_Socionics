@@ -1,8 +1,19 @@
 {
   "checkpoint": "d193ff30d1b74697c9baa72b923fa6fbc5f4cbcc",
-  "text_batches": 33,
+  "text_batches": 37,
   "total_text_batches": 104,
   "binary_complete": false,
   "verified_complete": false,
-  "next_batch": "FT4.1"
+  "next_batch": "FT4.1",
+  "status": "blocked",
+  "staged_tree_recovered": "ff7cbfeb9b8ba53f84abb1109acf5bae524ccb5f",
+  "required_source_files": 4168,
+  "matching_required_files": 2621,
+  "missing_required_files": 1546,
+  "operational_run_state_differs": true,
+  "blocked_paths": [
+    "C7_Final_Source_Freeze_v5.json",
+    "C7_Progress_Ledger_v1.json",
+    "C7_Second_Setting_Delivered_Source_Manifest_v1.json"
+  ]
 }
