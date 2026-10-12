@@ -1,10 +1,10 @@
 {
   "schema": "full-theory-run-v1",
-  "status": "blocked",
-  "run_id": "ft-resume-20261012T055220",
-  "lease_expires_at": null,
+  "status": "running",
+  "run_id": "ft-publish-20261012T062557866Z",
+  "lease_expires_at": "2026-10-12T06:55:57.866Z",
   "reference_head": "fdede6f16721f06422d0798a79d84170969b83f8",
-  "expected_head": "8084a1a4d763fcf0b848dc8713a17a20957e1a07",
+  "expected_head": "5371643151d9257091c066fa3e1b034aa058c360",
   "completed_batches": [
     "FT0.1",
     "FT0.2",
@@ -21,25 +21,18 @@
   ],
   "current_batch": "FT4.1",
   "next_batch": "FT4.1a demand formation protocol",
-  "remote_publication": "Approved FT2/FT3 repair source, protocols, tests and text evidence only. Full saved-checkpoint import blocked by automatic approval review. Public branch is not a standalone engine.",
+  "remote_publication": "Full tracked checkpoint explicitly approved; transferring missing Git objects.",
   "lease_scope": "exclusive FT continuation after expired lease; publishing verified surviving repairs",
   "source_repository": "GregoritHub/Socionics_Engine",
   "destination_repository": "GregoritHub/Engine_Socionics",
-  "blocker": "Automatic approval review rejected full public checkpoint import. FT4.1 has not started.",
+  "blocker": null,
   "reopened_batches": [],
-  "required_author_actions": [
-    "Explicit approval accepted by automatic review for publishing the entire tracked saved engine checkpoint (inherited engine, required historical source/theory inputs, tests and evidence) to public GregoritHub/Engine_Socionics. No unrelated scratch files."
-  ],
-  "active_worker": false,
+  "required_author_actions": [],
+  "active_worker": true,
   "author_restart": {
     "date": "2026-10-12",
-    "user_words": "you have permission",
-    "approved_proposal": "one bounded adapter repair pass, resumed FT work, and publication to public GregoritHub/Engine_Socionics"
+    "user_words": "I approve",
+    "approved_proposal": "Publish complete tracked checkpoint including required engine source, theory documents, tests and evidence to public Engine_Socionics; then resume authorized plan."
   },
-  "recovered_local_commit": "d193ff3",
-  "recovery": {
-    "source_commit": "d193ff30d1b74697c9baa72b923fa6fbc5f4cbcc",
-    "base_commit": "c8bef62d623b55054594d1328dfd649c52811641",
-    "fresh_repair_methods_passed": 3
-  }
+  "recovered_local_commit": "d193ff3"
 }
