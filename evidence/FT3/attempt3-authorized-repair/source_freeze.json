@@ -1,0 +1,22 @@
+{
+  "full_theory/__init__.py": "dcd9ba23a829fd009b017d400a7497bf11f2f6e86dce0dc2c9f5a399e123b7c5",
+  "full_theory/content.py": "6dc4a65ad22ccaa2afe1ac4a3ab87020519a07a5cf7e0a8f3cb80b0bc04c5974",
+  "full_theory/content_audit.py": "45e84c8ff1488e849d3266dc8c1efbf5931e8c2a0a2d13d6c105f918cae49c34",
+  "full_theory/historical.py": "43302ecb7a07893515d5514d4de1150e7aca87f62773c49c4dafaeb7e8252e53",
+  "full_theory/retention.py": "76e604a5a1d8ed7b73b58f391dad74d59e7d2ba868c51f271c14801e8174c29b",
+  "full_theory/retention_audit.py": "9595b3770cf81ae663b5675d3e95e921f2e7d6250c0dd5dbbc68a5589fbf2f50",
+  "tests_ft3/test_retention.py": "6d94c74e03edf05a4ce0e6c1f106e293712afffa4ee3cc2c3f9e3de9b1cb7863",
+  "contracts/ft/FT0_Baseline_Protocol_v1.json": "ccbce3867cc3c6ba679f4962d1da4b9412353396feda82041951a8e1f9fafc62",
+  "contracts/ft/FT0_Baseline_Protocol_v1.sha256": "c673a26913d206329b1980c05ba42a67e9a0ab9b020db002602fc8f80a4decd5",
+  "contracts/ft/FT1_Protocol_v1.json": "3036d08f3298ca2a7af051789aa2d8c7938c2f191485b19a3497398aacdd6b3b",
+  "contracts/ft/FT1_Protocol_v1.sha256": "cf31be1f2a80a0aaa8081d10bdb5dbfdbb878882fe6b545645cb4e96e8d92caa",
+  "contracts/ft/FT2_Protocol_v1.json": "77abfd93e696aea89f77281d48166c5a1c24ecb4c9976bd0bf58cef387444688",
+  "contracts/ft/FT2_Protocol_v1.sha256": "14f8438753a9c6915fed2b5e7086a0a893665975fcf1a82d0efa3895c6bfbef2",
+  "contracts/ft/FT2_Repair_Protocol_v1.json": "551f6f7c5ef883447683d106e45c4079ebbc4ca885f2f6638fc9ac7bc3e7c4fe",
+  "contracts/ft/FT2_Repair_Protocol_v1.json.sha256": "35d7150740a4c42573a1c2e45362068701de1cca32282d0e480432e1093126c9",
+  "contracts/ft/FT3_Protocol_v1.json": "dc23ee9911a80e13dd0017de92697eacd57d91a444dacf3069a2f94cf18ee485",
+  "contracts/ft/FT3_Protocol_v1.sha256": "2e31d6856ed686159f156da502f365d333a916d90e33724e41d0d64a02e0babc",
+  "contracts/ft/FT3_Repair_Protocol_v1.json": "b43cab4cfe416680596b9600a08cee7bc20ca46ecb4e352059810dbf0edeb01b",
+  "contracts/ft/FT3_Repair_Protocol_v1.json.sha256": "189b1dabc8575856d17a6a22df8bc9ff648de40b1372a07814861d14060f14c9",
+  "tools/evaluate_ft3.py": "9cb8a391118a45a5328392f91803737957dbea150f7d13cdbac895756c844094"
+}

@@ -1,0 +1,8 @@
+test_public_packet_requires_exact_scoped_paid_uptake (tests_ft2.test_content.ContentTests.test_public_packet_requires_exact_scoped_paid_uptake) ... ok
+test_nonphysical_semantic_scope_and_tampering (tests_ft2.test_content.ContentTests.test_nonphysical_semantic_scope_and_tampering) ... ok
+test_nonphysical_scope_and_wrong_target_control (tests_ft3.test_retention.RetentionTests.test_nonphysical_scope_and_wrong_target_control) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.419s
+
+OK

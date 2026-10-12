@@ -1,0 +1,18 @@
+test_all_five_active_shell_effects_are_nonvacuous (test_retention.RetentionTests.test_all_five_active_shell_effects_are_nonvacuous) ... ok
+test_capacity_removal_changes_later_guarded_action (test_retention.RetentionTests.test_capacity_removal_changes_later_guarded_action) ... ok
+test_duplicate_exposure_and_training_are_rejected (test_retention.RetentionTests.test_duplicate_exposure_and_training_are_rejected) ... ok
+test_empty_or_incomplete_detector_is_not_clearance (test_retention.RetentionTests.test_empty_or_incomplete_detector_is_not_clearance) ... ok
+test_independent_audit_rejects_false_clearance_and_history (test_retention.RetentionTests.test_independent_audit_rejects_false_clearance_and_history) ... ok
+test_interrupted_and_changing_windows_do_not_close (test_retention.RetentionTests.test_interrupted_and_changing_windows_do_not_close) ... ok
+test_mere_visit_and_missing_return_do_not_close (test_retention.RetentionTests.test_mere_visit_and_missing_return_do_not_close) ... ok
+test_missing_recall_and_revocation_preserve_history (test_retention.RetentionTests.test_missing_recall_and_revocation_preserve_history) ... ok
+test_nonphysical_scope_and_wrong_target_control (test_retention.RetentionTests.test_nonphysical_scope_and_wrong_target_control) ... ok
+test_novel_target_changed_partner_and_harder_load (test_retention.RetentionTests.test_novel_target_changed_partner_and_harder_load) ... ok
+test_partial_order_preserves_incomparability (test_retention.RetentionTests.test_partial_order_preserves_incomparability) ... ok
+test_supported_practice_does_not_award_capacity (test_retention.RetentionTests.test_supported_practice_does_not_award_capacity) ... ok
+test_two_settings_close_and_register_scoped_capacity (test_retention.RetentionTests.test_two_settings_close_and_register_scoped_capacity) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 16.200s
+
+OK

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "methods": 13,
+  "failures": 0,
+  "errors": 0,
+  "witnesses": [
+    {
+      "setting": "canonical",
+      "passed": true,
+      "closures": 1,
+      "certificates": 1
+    },
+    {
+      "setting": "workflow",
+      "passed": true,
+      "closures": 1,
+      "certificates": 1
+    }
+  ],
+  "source_unchanged": true
+}
