@@ -1,0 +1,58 @@
+{
+  "schema": "ft1-parity-v1",
+  "controller": "historical-521-v1",
+  "protocol_contract": "docs/ft/FT_Configuration_Contract_v1.md",
+  "source_fixture": "evidence/FT0.1/reference/kernel",
+  "comparison": "Exact archived complete summaries where available; full observable rows against unchanged supplied probe. No numeric tolerance.",
+  "panels": {
+    "dual_solo": {
+      "n": 32,
+      "horizon": 40
+    },
+    "ordered_nonidentity": {
+      "n": 240,
+      "horizon": 80
+    },
+    "both_seed_followup": {
+      "n": 32,
+      "horizon": 80
+    },
+    "firing_gate": {
+      "n": 64,
+      "horizon": 40
+    },
+    "type_seat": 128,
+    "gate_truth": 64
+  },
+  "checkpoint_splits": {
+    "iee_sli_gate_true": {
+      "policies": [
+        "every_tick",
+        "relay"
+      ],
+      "ticks": [
+        1,
+        3,
+        4,
+        5,
+        17
+      ],
+      "horizon": 40
+    },
+    "all_factorial": {
+      "ticks": [
+        3,
+        17
+      ],
+      "horizon": 40
+    }
+  },
+  "adversarial": [
+    "changed persisted state rejected by replay",
+    "changed reference file rejected by manifest",
+    "controller mode independent of wallet model",
+    "configuration interleaving exact"
+  ],
+  "evidence": "Full observable traces compressed with exact archive comparisons and source freeze; old behavior stays unchanged.",
+  "gate": "Every declared exact check passes; all reference hashes unchanged."
+}

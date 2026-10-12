@@ -1,0 +1,48 @@
+{
+  "schema": "ft2-paid-content-v1",
+  "hypothesis": "paid-compatible-composition-v1",
+  "coverage": {
+    "canonical_cells": 32,
+    "workflow_cells": 32,
+    "TIM": "iee",
+    "faces": [
+      "accumulation",
+      "expenditure"
+    ],
+    "names": [
+      "Contemplate",
+      "Express",
+      "Share",
+      "Theorize",
+      "Embody",
+      "Act",
+      "Coordinate",
+      "Organize",
+      "Identify",
+      "Mobilize",
+      "Commune",
+      "Institutionalize",
+      "Understand",
+      "Apply",
+      "Educate",
+      "Integrate"
+    ]
+  },
+  "intake": "Only exact outputs of completed paid operations; external uptake requires public scoped content or an actual event naming the recipient. Private bindings cannot be given away as knowledge.",
+  "facets": "Native last realized element is the emitted aspect. Receiver facet cap is exact Model A position intersection. Empty intersection cannot enter kept state.",
+  "handoff": "Actual A5 event uptake -> paid A6 Organize -> paid A1 Understand for IEE, in both settings; exact native objects, both supplied and retained operands consumed by the last operation.",
+  "controls": [
+    "essential_operand_changed",
+    "missing_operand",
+    "labels_only",
+    "provenance_only",
+    "chord_removed_at_matched_main_cost",
+    "unpaid_uptake",
+    "duplicate_packet",
+    "wrong_receiver",
+    "forged_aspect",
+    "stale_job"
+  ],
+  "audit": "Independent raw journal reconstruction of source output, actual route, typed intermediate predecessor chain, paid threshold, exact receipt and later consumer; no selector/executor/scheduler imports.",
+  "gate": "64 completed paid route/polarity cells with downstream consumers; two actual handoff chains and all named controls enforce their stated constraints. Unmet semantics are failures, never relabeled."
+}

@@ -1,0 +1,37 @@
+# Continuous build
+
+**Current status:** Release 1.0 remains accepted; the separately authorized Phase 7 experiment is available as a Release 1.1 candidate. See [the extension report](HLE_Energy_Extension_Report_v1.md), [R5](FB7_R5_Authorization.md), and the current run state for its exact delivery decision. The continuation automation remains disabled. Earlier statements below that Phase 7 lacked authorization are historical and superseded by R5.
+
+The user authorized the existing public GitHub repository and automatic batch continuation on 2026-10-06. Repository: https://github.com/GregoritHub/Socionics_Engine .
+
+During the authorized build, the hosted automation **Continue Socionics build** checked for eligible work. It read AGENTS.md and the current repository state, claimed a lease, implemented and verified batches, and saved checkpoints. Its terminal stop rule disables continuation on a blocker, a held final decision, or completion of the revised goal (accepted 5.3–5.6 and original 6.1–6.3). Phase 7 is not authorized.
+
+This is a scheduled hosted continuation, not a separately provisioned Codex Cloud environment. No custom Codex Cloud environment has been created. A scheduled run must verify that its execution tools are available; missing tools are a reportable blocker, never an excuse to claim work was performed.
+
+## Retrieval and recovery
+
+Clone the repository or fetch its current main branch. Never assume the scratch filesystem from an earlier run survived. Read docs/FB_Run_State.json and the latest batch record. Original source bytes remain in the Git history and supplied manifest. Original large evidence is identified in docs/FB_Input_Inventory.json; new raw intake evidence is identified in docs/FB0.1_Evidence_Index.json. Read the Library skill and materialize those exact stored files when needed. Verify their SHA-256 values before extracting. No user download/upload cycle is required.
+
+## Saving
+
+Shell reads/clones are available in the bootstrap environment, but shell push had no credential. The GitHub plugin provides authorized writes. Use create_blob/create_tree/create_commit/update_ref with an expected branch head. GitHub tree assembly worked in groups of 150 path/SHA entries after a full 1,731-entry tree call timed out. Binary blobs are uploaded with base64. Do not request a personal token or weaken access rules.
+
+For new very large raw evidence, save one immutable archive through Library and commit its exact identity, SHA-256, extraction instructions, and summary to GitHub. Code and repository documents stay in Git. Do not lose or duplicate evidence merely to make a commit smaller.
+
+## Run ownership
+
+A fresh active lease prevents another worker from editing. Claim and renew the lease using an expected-head ref update. Inspect current head on conflict. Preserve user changes. Release the lease into ready state at a verified resumable checkpoint. Do not steal a live lease. Expired leases require inspection of actual committed evidence before recovery. Never infer a pass from an absent process or a missing log.
+
+## Approved extension (2026-10-07)
+
+Read `FB_Sustained_Development_Amendment_v1.md` before selecting work. After accepted FB5.2, execute discrete prospective batches 5.3, 5.4, 5.5 and 5.6, then 6.1–6.3. Original packaging is insufficient. Require 32/32 sustained coverage across the declared panel, generated-content chains, retained causal changes and longitudinal Shell correction. Do not force routes or credit duplicates as development. Read the latest state and respect its lease; the completed earlier conversation is not the owner. All inherited stop rules and the separate R5 requirement remain.
+
+## Exact final regression inventory
+
+Read `FB_Evidence_Metadata_Errata.md` and `evidence/FB5.4/Method_Inventory_Reconciliation.json`. FB5.1's 713 executions contain 703 distinct method IDs; FB5.3 includes all of those plus nine new methods, 712 distinct. FB6.2 must include every accepted test directory and compare unique executed method IDs against the saved inventory plus later accepted additions. Do not claim equal scope from totals alone. FB5.2's immutable ZIP is 79 files plus five directory entries; neither its bytes nor digest changed.
+
+After FB5.4, use `evidence/FB5.4/Accepted_Method_Inventory.json` as the 720-method inventory and add every subsequent accepted method. Read `FB5.5_Entry_Notes.md` before the sustained panel. The FB5.4 serial agenda is not a fair population scheduler; FB5.5 must preregister and audit that integration.
+
+## Phase 7 authorization supersession (2026-10-12)
+
+R5 is explicitly recorded in `FB7_R5_Authorization.md`; earlier statements above that Phase 7 is unauthorized are historical. The active run follows the same lease, source-freeze, evidence and stop rules through batches 7.1–7.4. Consult `FB_Run_State.json` and `FB7.4_Record.md` for its actual terminal decision. The existing disabled continuation automation has not been enabled.

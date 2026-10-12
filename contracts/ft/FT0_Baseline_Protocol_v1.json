@@ -1,0 +1,15 @@
+{
+  "schema": "ft-baseline-protocol-v1",
+  "job": "FT0.3",
+  "registered_before_run": "2026-10-12T04:07:53.669484+00:00",
+  "source_commit": "fdede6f16721f06422d0798a79d84170969b83f8",
+  "accepted_inventory": "evidence/FB7.4/Accepted_Method_Inventory.json",
+  "inventory_sha256": "3f056252558dca7d6fd2dcfd13dd5e4f3e8f9ec81bbd15329fb095564fe48876",
+  "distinct_required": 751,
+  "command": "python3 tools/run_energy_regression.py evidence/FT0.3/attempt1",
+  "runner_scope": "All 742 legacy IDs plus 9 phase7 methods; independently compare exact executed ID set to latest 751-method inventory.",
+  "pass": "Every required ID executed and passed; zero errors; full source freeze unchanged. No baseline repair authorized.",
+  "historical_scope": "FT1 will separately reproduce exact study panels and historical suites.",
+  "control_tolerance": "exact except inherited timing guards, applied at FT8",
+  "publication": "Local commits permitted; remote publication blocked by auto-review. Do not bypass via alternate tool."
+}
